@@ -1,0 +1,21 @@
+import './App.css';
+// import (BrowserRouter as Router, Switch,Route) from 'react-router-dom';
+import Home from './components/pages/home';
+import One from './components/Parts/part1';
+import Two from './components/Parts/part2';
+import Three from './components/Parts/part3';
+import Footer from './components/Parts/footer';
+
+function App() {
+  return (
+    <div className="App">
+      <Home />
+      <One />
+      <Two />
+      <Three />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
