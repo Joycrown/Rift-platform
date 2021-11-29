@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState,} from 'react';
 import vec1 from '../images/Vector.png';
 import vec2 from '../images/Group (2).png';
 import vec5 from '../images/Vector (5).png';
@@ -6,10 +6,21 @@ import vec6 from '../images/ion_gift-sharp.png';
 
 
 function Three(){
-    return(
-        <section className  id='about'>
-            <div className = 'section-3 py-5 '>
+    const initialValues = {EMAIL: "", };
+    const [formValues, setFormValues] = useState(initialValues);
+    const [formErrors, setFormErrors] = useState({});
+    const [isSubmit, setIsSubmit] = useState(false);
 
+    
+    const handleChange = (e) =>{
+        // console.log(e.target);
+        const {name, value} = e.target;
+        setFormValues({...formValues,[name]: value});
+        console.log(formValues);
+    };
+    return(
+        <section id='about'>
+            <div className = 'section-3 py-5 '>
                 <div className = ' text-center'>
                     <div className = 'text-white do-head-des'>
                         <h1 className = 'display-4 fw-bold do-head'> Do I need to join<br/> the wait-list now?</h1>
@@ -76,26 +87,26 @@ function Three(){
                 </div>
                 <div className = 'text-center'>
                 <div className = 'we'>
-                    <form class="row g-0 pt-4 pb-5">
+                    <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 pb-5">
                         <div class="wrapper-2">
-                            <input type="email" class="form-control email-spac rounded-pill" placeholder= "Your email" id="inputEmail4"/>
-                            <button type="submit" class="btn email-bt  rounded-pill " id = 'join'>Sign Me Up Now</button>
+                            <input type="email" value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL" class="form-control email-spac rounded-pill" placeholder= "Your email" id="inputEmail4"/>
+                            <button type="submit" value="Subscribe" name="subscribe" class="btn email-bt  rounded-pill " id = 'join'>Sign Me Up Now</button>
                         </div>
                     </form>
                 </div>
                 <div className = ' we-tab'>
-                    <form class="row g-0 pt-4 pb-5">
+                    <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 pb-5">
                         <div class="wrapper-2">
-                            <input type="email" class="form-control email-spac rounded-pill" placeholder= "Your email" id="inputEmail4"/>
-                            <button type="submit" class="btn email-bt  rounded-pill " id = 'join'>Sign Me Up Now</button>
+                            <input type="email" value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL" class="form-control email-spac rounded-pill" placeholder= "Your email" id="inputEmail4"/>
+                            <button type="submit" value="Subscribe" name="subscribe" class="btn email-bt  rounded-pill " id = 'join'>Sign Me Up Now</button>
                         </div>
                     </form>
                 </div>
                 <div className = ' we-mob'>
-                    <form class="row g-0 pt-4 pb-5">
+                    <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 pb-5">
                         <div class="wrapper-mob">
-                            <input type="email" class="form-control email-space-mob rounded-pill" placeholder= "Your email" id="inputEmail4-mob-3"/>
-                            <button type="submit" class="btn email-btn-mob  rounded-pill " id = 'join-mob'>Join the Wait-list now!</button>
+                            <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL" class="form-control email-space-mob rounded-pill" placeholder= "Your email" id="inputEmail4-mob-3"/>
+                            <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-mob  rounded-pill " id = 'join-mob'>Join the Wait-list now!</button>
                         </div>
                     </form>
                 </div>
@@ -118,7 +129,7 @@ function Three(){
                         <h2 className = 'h2 fw-bold you-text text-white pt-2 pb-5'>
                             You can be one of them too️!
                         </h2>
-                        <button type="submit" class="btn email-btn-2 pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button>
+                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-2 pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button>
                     </div>
                     {/* tablet */}
                     <div className = 'too-text-tab'>
@@ -132,7 +143,7 @@ function Three(){
                         <h2 className = 'h2 fw-bold you-text text-white pt-2 pb-5'>
                             You can be one of them too️!
                         </h2>
-                        <button type="submit" class="btn email-btn-2 pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button>
+                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-2 pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button>
                     </div>
                 </div>
             </div>

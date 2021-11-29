@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState,} from 'react';
 import image1 from '../images/Group 26.png';
 import image2 from '../images/Group 25.png';
 import image3 from '../images/Group (1).png';
@@ -6,6 +6,18 @@ import image3 from '../images/Group (1).png';
 
 
 function Two(){
+    const initialValues = {EMAIL: "", };
+    const [formValues, setFormValues] = useState(initialValues);
+    const [formErrors, setFormErrors] = useState({});
+    const [isSubmit, setIsSubmit] = useState(false);
+
+    
+    const handleChange = (e) =>{
+        // console.log(e.target);
+        const {name, value} = e.target;
+        setFormValues({...formValues,[name]: value});
+        console.log(formValues);
+    };
     return(
         <section className = 'section py-5' id='why'>
             <div className = ' text-center'>
@@ -58,26 +70,26 @@ function Two(){
                     </div>
                 </div>
             </div>   <div className = 'we'>
-                <form class="row g-0 pt-4 pb-5">
+                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 pb-5">
                     <div class="wrapper-2">
-                        <input type="email" class="form-control email-spac rounded-pill" placeholder= "Your email" id="inputEmail4"/>
-                        <button type="submit" class="btn email-bt  rounded-pill " id = 'join'>Notify Me When Ready</button>
+                        <input type="email" value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL" class="form-control email-spac rounded-pill" placeholder= "Your email" id="inputEmail4"/>
+                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-bt  rounded-pill " id = 'join'>Notify Me When Ready</button>
                     </div>
                 </form>
             </div>
             <div className = ' we-tab'>
-                <form class="row g-0 pt-4 pb-5">
+                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 pb-5">
                     <div class="wrapper-2">
-                        <input type="email" class="form-control email-spac rounded-pill" placeholder= "Your email" id="inputEmail4"/>
-                        <button type="submit" class="btn email-bt  rounded-pill " id = 'join'>Notify Me When Ready</button>
+                        <input type="email" value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL" class="form-control email-spac rounded-pill" placeholder= "Your email" id="inputEmail4"/>
+                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-bt  rounded-pill " id = 'join'>Notify Me When Ready</button>
                     </div>
                 </form>
             </div>
             <div className = ' we-mob'>
-                <form class="row g-0 pt-4 pb-5">
+                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 pb-5">
                     <div class="wrapper-mob-2">
-                        <input type="email" class="form-control email-space-mob-2 rounded-pill" placeholder= " Enter your email" id="inputEmail4-mob-2"/>
-                        <button type="submit" class="btn email-btn-mob  rounded-pill " id = 'join-mob'>Join the Wait-list now!</button>
+                        <input type="email" value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL" class="form-control email-space-mob-2 rounded-pill" placeholder= " Enter your email" id="inputEmail4-mob-2"/>
+                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-mob  rounded-pill " id = 'join-mob'>Join the Wait-list now!</button>
                     </div>
                 </form>
             </div>

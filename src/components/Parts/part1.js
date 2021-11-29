@@ -1,8 +1,18 @@
-import React from 'react';
-
+import React, {useState,} from 'react';
 
 
 function One(){
+    const initialValues = {EMAIL: "", };
+    const [formValues, setFormValues] = useState(initialValues);
+    const [formErrors, setFormErrors] = useState({});
+    const [isSubmit, setIsSubmit] = useState(false);
+
+    const handleChange = (e) =>{
+        // console.log(e.target);
+        const {name, value} = e.target;
+        setFormValues({...formValues,[name]: value});
+        console.log(formValues);
+    };
     return(
         <section id = 'blog'>
             <div className = ' text-center'>
@@ -20,7 +30,7 @@ function One(){
                     </div>
                     <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3'>
                         <div className = 'card  shadow'>
-                            <div className = 'card-body cb py-4 rounded-3 text-center'>
+                            <div className = 'card-body cb py-4 pt-4 rounded-3 text-center'>
                                 <p className = 'card-text card-text-tab card-text-mob fw-bold'>Are you interested in earning from the forex market but you do not have the time or 
                                     skills required to be consistently profitable?</p>
                             </div>
@@ -36,7 +46,7 @@ function One(){
                             </div>
                         </div>
                     </div>
-                    <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3'>
+                    <div className = 'col-lg-3 col-md-6 col-sm-6 pb-2'>
                         <div className = 'card shadow'>
                             <div className = 'card-body cb py-5 pt-4  rounded-3 text-center'>
                                 <p className = 'card-text card-text-tab  card-text-mob fw-bold'>Are you scared of giving your capital to investment firms or 
@@ -52,11 +62,12 @@ function One(){
                 worry no more, we have built  the one solution to all your problems. 
                 </p>
             </div>
+            
             <div className = 'we'>
-                <form class="row g-0 pt-4 ">
+                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 ">
                     <div class="wrapper-2">
-                        <input type="email" class="form-control email-space rounded-pill" placeholder= "Your email" id="inputEmail4"/>
-                        <button type="submit" class="btn email-btn  rounded-pill " id = 'join'>Join waitlist now</button>
+                        <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} class="form-control email-space rounded-pill" placeholder= "Your email" name="EMAIL" id="inputEmail4"/>
+                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn  rounded-pill " id = 'join'>Join waitlist now</button>
                     </div>
                 </form>
             </div>
@@ -68,10 +79,10 @@ function One(){
                 </p>
             </div>
             <div className = ' we-tab'>
-                <form class="row g-0 pt-4 ">
+                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 ">
                     <div class="wrapper-tab1">
-                        <input type="email" class="form-control email-space-tab rounded-pill" placeholder= "Your email" id="inputEmail4-tab"/>
-                        <button type="submit" class="btn email-bt  rounded-pill " id = 'join'>Join waitlist now</button>
+                        <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL" class="form-control email-space-tab rounded-pill" placeholder= "Your email" id="inputEmail4-tab"/>
+                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-bt  rounded-pill " id = 'join'>Join waitlist now</button>
                     </div>
                 </form>
             </div>
@@ -83,10 +94,10 @@ function One(){
                 </p>
             </div>
             <div className = ' we-mob'>
-                <form class="row g-0 pt-4 ">
+                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 ">
                 <div class="wrapper-mob-2">
-                        <input type="email" class="form-control email-space-mob-2 rounded-pill" placeholder= " Enter your email" id="inputEmail4-mob-2"/>
-                        <button type="submit" class="btn email-btn-mob  rounded-pill " id = 'join-mob'>Join the Wait-list now!</button>
+                        <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL"class="form-control email-space-mob-2 rounded-pill" placeholder= " Enter your email" id="inputEmail4-mob-2"/>
+                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-mob  rounded-pill " id = 'join-mob'>Join the Wait-list now!</button>
                     </div>
                 </form>
             </div>

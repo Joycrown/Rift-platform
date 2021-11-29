@@ -334,6 +334,12 @@
   display: none;
   padding-right: 20rem !important;
 }
+.error{
+  color: #ff0101;
+  font-family: 'Roboto';
+  font-weight: 700 !important;
+  padding-left: 5rem !important;
+}
 .head-content-tab, .head-content-mob, .savings-mob, .header-mobile {
   display: none;
 }
@@ -463,7 +469,7 @@
    .wrapper-tab{
     background-color: #a5acb9 !important;
     position: relative;
-    width: 70% !important;
+    width: 90% !important;
     border: none;
     border: 100px;
     border-radius: 100px;
@@ -472,11 +478,13 @@
     border-style: none;
     background-color: #a5acb9 !important;
     width: 100% !important;
+    font-size: 2.1vw !important;
    }
+  
    .email-btn-1-tab{
     background-color: #3BAD0A !important;
     font-family: Roboto;
-    width: 70% !important;
+    width: 60% !important;
     position: absolute;
     display: inline;
     border: none;
@@ -518,7 +526,7 @@
     font-size: 0.4rem !important;
   }
   .card-text-tab{
-    font-size: 2.1vw!important;
+    font-size: 2.2vw!important;
     font-weight: 700 !important;
   }
   .scared-tab{
@@ -533,7 +541,7 @@
   }
   .we-tab{
     display: block;
-    margin-left: 6rem !important;
+    margin-left: 3rem !important;
     padding-right: 3rem !important;
     padding-left: 0rem !important;
   }
@@ -865,6 +873,7 @@
     border-style: none;
     background-color: #a5acb9 !important;
     width: 100% !important;
+    font-size: 2.5vw !important;
   }
   .email-space-mob-2{
     border-style: none;
