@@ -817,6 +817,11 @@
     }
 }
 @media (max-width: 576px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .header{
     display: none;
   }
@@ -976,7 +981,7 @@
     /* margin-bottom: 3rem; */
   }
   .blog-mob{
-    font-size: 8vw !important;
+    font-size: 3vw !important;
     padding-top: 0.8rem ;
     padding-right: 10px !important;
   }
