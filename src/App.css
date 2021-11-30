@@ -912,6 +912,14 @@
     top: -1;
     right: 0;
   }
+  .email-btn-mob-ft{
+    background-color: #3BAD0A !important;
+    font-family: 'Roboto';
+    width: 60% !important;
+    position:relative;
+    border: none;
+    
+  }
   #inputEmail4-mob::placeholder{
     color: rgb(8, 8, 8) ;
     padding-left: 0rem;
@@ -981,7 +989,7 @@
     /* margin-bottom: 3rem; */
   }
   .blog-mob{
-    font-size: 3vw !important;
+    font-size: 2vw !important;
     padding-top: 0.8rem ;
     padding-right: 10px !important;
   }
@@ -1040,12 +1048,12 @@
   }
   .submit-mob{
     display: block;
-    padding-bottom: -10rem !important;
-    margin-bottom: -2rem !important;
+    padding-top: 1rem !important;
   }
   .links-mob{
     display: block;
-    padding-right: 2rem !important;
+    padding-right: 1rem !important;
+    margin-bottom: -1rem !important;
   }
   .fsize-mob{
     font-family: 'Roboto';

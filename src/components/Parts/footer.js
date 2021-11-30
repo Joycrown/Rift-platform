@@ -4,13 +4,20 @@ import twitter from '../images/Vector (1).png';
 import facebook from '../images/Vector (2).png';
 import linkedin from '../images/Vector (3).png';
 import instagram from '../images/Vector (4).png';
+import twitter1 from '../images/Vector11.png';
+import facebook1 from '../images/Vector 12.png';
+import linkedin1 from '../images/Vector 13.png';
+import instagram1 from '../images/Vector 14.png';
+
 import {Link} from 'react-scroll'
 
 function Footer(){
     return(
         <section className = ''>
-            <div className = 'text-center elipse py-5 submit-mob'>
-                <button type="submit" class="btn email-btn-2 mt-5 rounded-pill" id = 'join-mob'>Join the Wait-list now!</button>
+            <div className = "elipse py-4">
+                <div className = 'text-center submit-mob'>
+                    <button type="submit" class="btn email-btn-mob-ft rounded-pill" id = 'join-mob'>Join the Wait-list now!</button>
+                </div>
             </div>
             <div className = 'footer'>
                 {/* <div className = "logo ps-4">
@@ -96,7 +103,7 @@ function Footer(){
                     {/* mobile */}
                     <div className = ' links-mob '>
                         <div className = 'd-flex justify-content-end'>
-                            <div className = 'text-white pt-5'>
+                            <div className = 'text-white pt-4'>
                                 <h4 className = ' fsize-mob'> RESOURCES </h4>
                                 <p className = ' fsize-p-mob'> <Link
                             activeClass = "active"
@@ -106,7 +113,7 @@ function Footer(){
                             offset={0}
                             duration= {500}>Blog</Link></p>
                             </div>
-                            <div className = 'text-white pt-5 company'>
+                            <div className = 'text-white pt-4 company'>
                                 <h4 className = ' fsize-mob'>COMPANY</h4>
                                 <p className = 'fsize-p-mob'> <Link
                             activeClass = ""
@@ -124,7 +131,7 @@ function Footer(){
                             duration= {500}>Why rift capital?</Link></p>
                             
                             </div>
-                            <div className = 'text-white pt-5 contact'>
+                            <div className = 'text-white pt-4 contact'>
                                 <h4 className = 'fsize-mob'> CONTACT </h4>
                                 <p className = 'fsize-p-mob'> Email</p>
                             </div>
@@ -171,16 +178,16 @@ function Footer(){
                                 </div>
                             </div>
                             <div className = 'col-4'>
-                                <div className = 'text-center text-white ps-3 pt-5'>
+                                <div className = 'text-center text-white pt-4'>
                                     <p className = 'ending-p-mob text-decoration-underline' >Copyright Rift Capital 2021</p>
                                 </div>
                             </div>
                             <div className = 'col-4'>
-                                <div className = ' ps-2 '>
-                                    <img src = {twitter} alt = 'icon1' className = 'p-2 bd-highlight social-mob'></img>
-                                    <img src = {facebook} alt = 'icon2' className = 'p-2 bd-highlight ic-social social-mob'></img>
-                                    <img src = {linkedin} alt = 'icon3' className = 'p-2 bd-highlight ic-social social-mob'></img>
-                                    <img src = {instagram} alt = 'icon4' className = 'p-2 bd-highlight ic-social social-mob'></img>
+                                <div className = ' '>
+                                    <img src = {twitter1} alt = 'icon1' className = 'p-2 bd-highlight'></img>
+                                    <img src = {facebook1} alt = 'icon2' className = 'p-2 bd-highlight ic-social'></img>
+                                    <img src = {linkedin1} alt = 'icon3' className = 'p-2 bd-highlight ic-social'></img>
+                                    <img src = {instagram1} alt = 'icon4' className = 'p-2 bd-highlight ic-social'></img>
                                 </div>
                             </div>
                         </div>
