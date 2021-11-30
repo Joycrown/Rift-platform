@@ -4,7 +4,7 @@ import twitter from '../images/Vector (1).png';
 import facebook from '../images/Vector (2).png';
 import linkedin from '../images/Vector (3).png';
 import instagram from '../images/Vector (4).png';
-import {Link, animateScroll as Scroll} from 'react-scroll'
+import {Link} from 'react-scroll'
 
 function Footer(){
     return(

@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import logo from '../images/Rift link logo.png';
 import savings from '../images/Savings 1.png';
 import savings2 from '../images/Savings 2.png';
-import {Link, animateScroll as Scroll} from 'react-scroll';
-import Swal from 'sweetalert2';
+import {Link} from 'react-scroll';
+// import Swal from 'sweetalert2';
 
 
 
@@ -12,8 +12,8 @@ import Swal from 'sweetalert2';
 function Home(){
     const initialValues = {EMAIL: "", };
     const [formValues, setFormValues] = useState(initialValues);
-    const [formErrors, setFormErrors] = useState({});
-    const [isSubmit, setIsSubmit] = useState(false);
+    // const [formErrors, setFormErrors] = useState({});
+    // const [isSubmit, setIsSubmit] = useState(false);
 
     const handleChange = (e) =>{
         // console.log(e.target);
