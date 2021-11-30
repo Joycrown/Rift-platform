@@ -79,8 +79,9 @@
   color: rgb(8, 8, 8) !important;
   padding-left: 3rem;
   font-family: 'roboto' ;
-  font-size: 16px;
+  font-size: 1vw;
   font-weight: 600;
+  /* margin-top: 5px !important; */
 }
 
 
@@ -117,14 +118,14 @@
 #join{
   font-family: 'roboto';
   color: white !important;
-  font-size: 1vw;
-  font-weight: 800;
-  margin-top: 2px !important;
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin-top: 0px !important;
 }
 .email-btn-ft{
   background-color: #3BAD0A !important;
   font-family: 'Roboto';
-  width: 50% !important;
+  width: 30% !important;
   position:relative;
   border: none;
 }
