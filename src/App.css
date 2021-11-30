@@ -117,9 +117,16 @@
 #join{
   font-family: 'roboto';
   color: white !important;
-  font-size: 1.5vw;
-  font-weight: 700;
-  margin-top: -2px !important;
+  font-size: 1vw;
+  font-weight: 800;
+  margin-top: 2px !important;
+}
+.email-btn-ft{
+  background-color: #3BAD0A !important;
+  font-family: 'Roboto';
+  width: 50% !important;
+  position:relative;
+  border: none;
 }
 
 .does{
@@ -852,13 +859,15 @@
   .ending-tab{
     display: none;
   }
-  .logo-mob{
-    padding-bottom: 5rem!important;
+  .logo-mob-1{
+    padding-right: 3rem!important;
+    /* width: 100% !important;
+    height: 13vh !important; */
   }
   .header-mobile{
     display: block;
     background-color: hsl(203, 96%, 18%) !important;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
     height: 75vw;
     /* padding-bottom: 5rem!important;
     margin-bottom: 10rem !important; */

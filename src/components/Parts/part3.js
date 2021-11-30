@@ -129,7 +129,7 @@ function Three(){
                         <h2 className = 'h2 fw-bold you-text text-white pt-2 pb-5'>
                             You can be one of them too️!
                         </h2>
-                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-2 pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button>
+                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-ft pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button>
                     </div>
                     {/* tablet */}
                     <div className = 'too-text-tab'>
@@ -143,7 +143,7 @@ function Three(){
                         <h2 className = 'h2 fw-bold you-text text-white pt-2 pb-5'>
                             You can be one of them too️!
                         </h2>
-                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-2 pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button>
+                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-ft rounded-pill" id = 'join'>Join the Waitlist now!</button>
                     </div>
                 </div>
             </div>

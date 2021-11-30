@@ -40,7 +40,7 @@ function Home(){
     return(
         <section className = 'body' id= 'home'>
             <div className = ' nav d-flex justify-content-between'>
-                <div className = "logo ps-4">
+                <div className = "logo ps-3">
                     <img src = {logo} alt= 'Logo' className = 'logo-gn logo-mob-1'></img>
                 </div>
                 <div className = ''>
