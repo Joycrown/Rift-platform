@@ -10,7 +10,7 @@ function Footer(){
     return(
         <section className = ''>
             <div className = 'text-center elipse py-5 submit-mob'>
-                <button type="submit" class="btn email-btn-2 mt-5 rounded-pill" id = 'join'>Join the Wait-list now!</button>
+                <button type="submit" class="btn email-btn-2 mt-5 rounded-pill" id = 'join-mob'>Join the Wait-list now!</button>
             </div>
             <div className = 'footer'>
                 {/* <div className = "logo ps-4">
@@ -171,16 +171,16 @@ function Footer(){
                                 </div>
                             </div>
                             <div className = 'col-4'>
-                                <div className = 'text-center text-white ps-2 pt-5'>
+                                <div className = 'text-center text-white ps-3 pt-5'>
                                     <p className = 'ending-p-mob text-decoration-underline' >Copyright Rift Capital 2021</p>
                                 </div>
                             </div>
                             <div className = 'col-4'>
                                 <div className = ' ps-2 '>
-                                    <img src = {twitter} alt = 'icon1' className = 'p-2 bd-highlight '></img>
-                                    <img src = {facebook} alt = 'icon2' className = 'p-2 bd-highlight ic-social'></img>
-                                    <img src = {linkedin} alt = 'icon3' className = 'p-2 bd-highlight ic-social'></img>
-                                    <img src = {instagram} alt = 'icon4' className = 'p-2 bd-highlight ic-social'></img>
+                                    <img src = {twitter} alt = 'icon1' className = 'p-2 bd-highlight social-mob'></img>
+                                    <img src = {facebook} alt = 'icon2' className = 'p-2 bd-highlight ic-social social-mob'></img>
+                                    <img src = {linkedin} alt = 'icon3' className = 'p-2 bd-highlight ic-social social-mob'></img>
+                                    <img src = {instagram} alt = 'icon4' className = 'p-2 bd-highlight ic-social social-mob'></img>
                                 </div>
                             </div>
                         </div>

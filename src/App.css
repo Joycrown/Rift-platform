@@ -117,13 +117,15 @@
 #join{
   font-family: 'roboto';
   color: white !important;
-  font-size: 16px;
+  font-size: 1.5vw;
   font-weight: 700;
+  margin-top: -2px !important;
 }
 
 .does{
   font-family: 'Sunset';
   padding-top: 3rem;
+  font-size: 7vw !important;
 }
 .card-text{
   font-family: 'roboto';
@@ -217,10 +219,12 @@
 
 .do-head{
   font-family: 'Sunset';
+  font-size: 4vw !important;
 }
 .do-text{
   font-family: 'Roboto';
   text-transform: uppercase;
+  font-size: 2vw !important;
 }
 .layout{
   width: 600px;
@@ -403,6 +407,9 @@
 .email-space-sm{
   display: none;
 }
+.does-mob{
+  display: none;
+}
 .email-btn-sm{
   display: none;
 }
@@ -538,6 +545,9 @@
     font-family: 'roboto';
     padding-top: 1.5rem;
     text-transform: uppercase;
+  }
+  .if-text-tab{
+    font-size: 3vw !important;
   }
   .we-tab{
     display: block;
@@ -813,6 +823,9 @@
   .savings{
     display: none;
   }
+  .does-nm{
+    display: none;
+  }
   .if-tab{
     display: none;
   }
@@ -841,19 +854,22 @@
     display: block;
     background-color: hsl(203, 96%, 18%) !important;
     margin-right: 1rem;
-    height: 60vh;
-    padding-bottom: 5rem!important;
-    margin-bottom: 10rem !important;
-    
+    height: 75vw;
+    /* padding-bottom: 5rem!important;
+    margin-bottom: 10rem !important; */
   }
   .head-content-mob{
     display: block;
     padding-left: 1rem !important;
     padding-top: 1rem;
   }
-  .h6-mob{
-    font-size: 0.95rem;
-
+  .text-heading-mob{
+    font-family: 'sunset';
+    font-size: 6vw!important;
+  }
+  .sub-text-mob{
+    font-family:'Roboto', 'sans-serif' ;
+    font-size: 2.5vw !important;
   }
   .wrapper-mob{
     background-color: #a5acb9 !important;
@@ -861,6 +877,7 @@
     border: none;
     border: 20px;
     border-radius: 20px;
+    width: 100%!important;
   }
   .wrapper-mob-2{
     background-color: #ffffff !important;
@@ -891,39 +908,59 @@
     right: 0;
   }
   #inputEmail4-mob::placeholder{
-    color: rgb(8, 8, 8) !important;
-    padding-left: 3rem;
+    color: rgb(8, 8, 8) ;
+    padding-left: 0rem;
     font-family: 'roboto' ;
-    font-size: 15px;
+    font-size: 2.5vw;
     font-weight: 600;
   }
   #inputEmail4-mob-2::placeholder{
     color: rgb(8, 8, 8) !important;
-    padding-left: 6rem;
+    padding-left: 0rem;
     font-family: 'roboto' ;
-    font-size: 15px;
+    font-size: 3vw;
     font-weight: 600;
   }
   #inputEmail4-mob-3::placeholder{
     color: rgb(8, 8, 8) !important;
-    padding-left: 7rem;
+    padding-left: 0rem;
     font-family: 'roboto' ;
-    font-size: 16px;
+    font-size: 3vw;
     font-weight: 700;
   }
   #join-mob{
     color: white !important;
     font-family: 'roboto';
-    font-size: 15px;
+    font-size: 2.5vw;
     font-weight: 700;
   }
   
+  .does-mob{
+    display: block;
+    padding-top: 6rem;
+  }
+  .does-mobi{
+    font-family: 'Sunset';
+    font-size: 7vw !important;
+  }
+  .if-text-mob{
+    font-size: 4vw !important;
+  }
   .savings-mob{
     display: block;
     margin-right: 3rem !important;
     padding-left: -2rem !important;
     margin-top: -3rem !important;
     width: 100%;
+  }
+  .do-head-mob{
+    font-family: 'Sunset';
+    font-size: 7vw !important;
+  }
+  .do-text-mob{
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 3.5vw !important;
   }
   .logo-mob-1{
     display: block;
@@ -939,8 +976,9 @@
     /* margin-bottom: 3rem; */
   }
   .blog-mob{
-    /* font-size: 8vw !important; */
+    font-size: 8vw !important;
     padding-top: 0.8rem ;
+    padding-right: 10px !important;
   }
   .card-text-mob{
     font-size: 4vw !important;
@@ -980,6 +1018,10 @@
   .too-text-mob{
     display: block;
     font-family: 'Roboto';
+    font-size: 3vw !important;
+  }
+  .you-text-mob{
+    font-size: 4vw !important;
   }
   .elipse{
     background: url(./components/images/Ellipse\ 1\ \(1\).png);
@@ -998,7 +1040,7 @@
   }
   .links-mob{
     display: block;
-    padding-right: 3rem !important;
+    padding-right: 2rem !important;
   }
   .fsize-mob{
     font-family: 'Roboto';
@@ -1035,6 +1077,7 @@
     display: block;
     padding-left: 12rem !important;
   }
+  
   .wrapper-sm{
     background-color: #a5acb9 !important;
     position: relative;

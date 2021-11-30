@@ -23,12 +23,12 @@ function Three(){
             <div className = 'section-3 py-5 '>
                 <div className = ' text-center'>
                     <div className = 'text-white do-head-des'>
-                        <h1 className = 'display-4 fw-bold do-head'> Do I need to join<br/> the wait-list now?</h1>
-                        <p className = 'h4 do-text fw-normal py-3 pb-3'>By joining our wait-list today, you will</p>
+                        <h1 className = 'fw-bold do-head'> Do I need to join<br/> the wait-list now?</h1>
+                        <p className = 'do-text fw-normal py-3 pb-3'>By joining our wait-list today, you will</p>
                     </div>
                     <div className = 'text-white do-head-mob'>
-                        <h1 className = 'display-5 fw-bold do-head'> Do I need to join<br/> the wait-list now?</h1>
-                        <p className = 'h5 do-text  py-3 pb-3'>By joining our wait-list today, you will</p>
+                        <h1 className = 'fw-bold do-head-mob'> Do I need to join<br/> the wait-list now?</h1>
+                        <p className = 'do-text-mob py-3 pb-3'>By joining our wait-list today, you will</p>
                     </div>
                 </div>
                 <div className = 'd-flex justify-content-center'>
@@ -149,14 +149,14 @@ function Three(){
             </div>
             {/* mobile */}
             <div className = 'too-text-mob text-center py-5'>
-                <p className = 'h6 fw-bolder too-text-mob '>
+                <p className = 'fw-bolder too-text-mob '>
                 Too many people are struggling with insufficient income and are mostly<br/>
                 focused on earning just enough to survive.<br/><br/>
 
                 Rift Link is a transparent and secure platform to earn automated income.<br/> 
                 So people can focus on living their best life without worrying about their<br/>finances. 
                 </p>
-                <h2 className = 'h2 fw-bolder you-text pt-5'>
+                <h2 className = 'fw-bolder you-text you-text-mob pt-3'>
                     You can be one of them too️!
                 </h2>
                 {/* <div className = 'elipse py-5 '>

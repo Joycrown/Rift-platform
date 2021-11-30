@@ -15,8 +15,11 @@ function One(){
     };
     return(
         <section id = 'blog'>
-            <div className = ' text-center'>
-                <h1 className = 'does fw-bold display-3 pb-5'>Does this sound <br/>like you?</h1>
+            <div className = 'text-center does-nm pt-5'>
+                <h1 className = 'does fw-bold pb-5'>Does this sound <br/>like you?</h1>
+            </div>
+            <div className = 'text-center does-mob'>
+                <h1 className = 'does-mobi fw-bold pb-5'>Does this sound <br/>like you?</h1>
             </div>
             <div className = 'container'>
                 <div className = 'row'>
@@ -73,7 +76,7 @@ function One(){
             </div>
             {/* tablet */}
             <div className = 'py-5 if-tab text-center'>
-                <p className = 'h4 fw-bold'>
+                <p className = 'if-text-tab fw-bold'>
                 If your answer to any of the above is  yes,<br/>
                 worry no more, we have built  the one solution<br/> to all your problems. 
                 </p>
@@ -87,8 +90,9 @@ function One(){
                 </form>
             </div>
             {/* mobile */}
+            
             <div className = 'py-5 if-mob text-center'>
-                <p className = 'h5 fw-bolder'>
+                <p className = 'if-text-mob fw-bolder'>
                 If your answer to any of the above is  yes,<br/>
                 worry no more, we have built  the one <br/>solution to all your problems. 
                 </p>
@@ -96,7 +100,7 @@ function One(){
             <div className = ' we-mob'>
                 <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 ">
                 <div class="wrapper-mob-2">
-                        <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL"class="form-control email-space-mob-2 rounded-pill" placeholder= " Enter your email" id="inputEmail4-mob-2"/>
+                        <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL"class="form-control text-white email-space-mob-2 rounded-pill" placeholder= " Enter your email" id="inputEmail4-mob-2"/>
                         <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-mob  rounded-pill " id = 'join-mob'>Join the Wait-list now!</button>
                     </div>
                 </form>
