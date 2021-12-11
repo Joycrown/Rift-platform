@@ -21,16 +21,16 @@ function Two(){
     return(
         <section className = 'section py-5' id='why'>
             <div className = ' text-center'>
-                <h1 className = 'why display-4 fw-bold pb-3'>
+                <h1 className = 'why why-tab why-mob pb-3'>
                         Why Rift Link?
                 </h1>
-                <p className = 'why-text h5 fw-bold pb-3'>
+                <p className = 'why-text why-text-tab pb-3'>
                 We're sure you want to know why Rift Link<br/> is 
                 perfect for you, here are a few reasons. 
                 </p>
-                <p className = 'why-text-mob fw-bolder pb-3'>
+                <p className = 'why-text-mob fw-bold pb-3'>
                 We're sure you want to know why Rift Link is 
-                perfect for you<br/>, here are a few reasons. 
+                perfect for you, here are a few reasons. 
                 </p>
             </div>
             <div className = 'container py-5'>
@@ -39,8 +39,8 @@ function Two(){
                         <div className = 'grp-1'>
                             <img src = {image1} alt = '' className = 'image image-tab image-mob' ></img>
                             <div className = 'text-center'>
-                                <h4 className = 'display-6-earn earn-tab'>Earn From Anywhere in the World</h4>
-                                <p className = ' h6 fw-bold p-text-tab p-text-mob'>With our cloud based, broker agnostic software, 
+                                <h4 className = 'display-6-earn earn earn-tab earn-mob'>Earn From Anywhere in the World</h4>
+                                <p className = 'p-text p-text-tab p-text-mob'>With our cloud based, broker agnostic software, 
                                 you can connect your Metatrader 4 and 5 accounts regardless of your 
                                 broker or location. </p>
                             </div>
@@ -49,9 +49,9 @@ function Two(){
                     <div className = 'col-sm-12 col-md-4 col-lg-4'>
                         <div className = 'grp-2'>
                             <img src = {image2} alt = '' className = 'image image-tab image-mob' ></img>
-                            <div className = 'text-center pt-3-earn'>
-                                <h4 className = 'display-6-earn earn-tab'>Earn on the Go</h4>
-                                <p className = 'h6 fw-bold p-text-tab p-text-mob'>With a 24/7 uptime, all you just have to do 
+                            <div className = 'text-center'>
+                                <h4 className = 'display-6-earn earn earn-tab earn-mob'>Earn on the Go</h4>
+                                <p className = 'p-text p-text-tab p-text-mob'>With a 24/7 uptime, all you just have to do 
                                 is provide your trading account details, then sit back and watch your capital 
                                 grow, without any physical activity required of you. Passive income at its finest! </p>
                             </div>
@@ -61,37 +61,44 @@ function Two(){
                         <div className = 'grp-3'>
                             <img src = {image3} alt = '' className = 'image image-tab image-mob' ></img>
                             <div className = 'text-center pt-1'>
-                                <h4 className = 'display-6-earn earn-tab'>Earn without losing Control</h4>
-                                <p className = ' h6 fw-bold p-text-tab p-text-mob'>With Rift Link, you're in full control of your capital,
+                                <h4 className = 'display-6-earn earn earn-tab earn-mob'>Earn without losing Control</h4>
+                                <p className = 'p-text p-text-tab p-text-mob'>With Rift Link, you're in full control of your capital,
                                  as we do not have access to your broker account where you make deposits and 
                                  withdrawals. You can disconnect your account any time you wish! </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>   <div className = 'we'>
-                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 pb-5">
-                    <div class="wrapper-2">
-                        <input type="email" value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL" class="form-control email-spac rounded-pill" placeholder= "Your email" id="inputEmail4"/>
-                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-bt  rounded-pill " id = 'join'>Notify Me When Ready</button>
-                    </div>
+            </div>   
+            <div className = 'we'>
+                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0">
+                        <div id="mc_embed_signup_scroll">
+                            <div class="input-group mb-2">
+                                <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} className="form-control field rounded-start" name="EMAIL" placeholder="Your email" aria-label="Recipient's username" aria-describedby="button-addon2" id="inputEmail4" required/>
+                                <button class="btn rounded-end field-btn" type="submit" value="Subscribe" name="subscribe" id="join">Notify Me When Ready</button>
+                            </div>
+                        </div>
                 </form>
             </div>
             <div className = ' we-tab'>
-                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 pb-5">
-                    <div class="wrapper-2">
-                        <input type="email" value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL" class="form-control email-spac rounded-pill" placeholder= "Your email" id="inputEmail4"/>
-                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-bt  rounded-pill " id = 'join'>Notify Me When Ready</button>
+                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0">
+                    <div id="mc_embed_signup_scroll">
+                        <div class="input-group mb-2">
+                            <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} className="form-control field rounded-start" name="EMAIL" placeholder="Your email" aria-label="Recipient's username" aria-describedby="button-addon2" id="inputEmail4-tab" required/>
+                            <button class="btn rounded-end field-btn" type="submit" value="Subscribe" name="subscribe" id="join-tab">Notify Me When Ready</button>
+                        </div>
                     </div>
                 </form>
             </div>
-            <div className = ' we-mob'>
-                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0 pt-4 pb-5">
-                    <div class="wrapper-mob-2">
-                        <input type="email" value = {formValues.EMAIL} onChange ={handleChange} name="EMAIL" class="form-control email-space-mob-2 rounded-pill" placeholder= " Enter your email" id="inputEmail4-mob-2"/>
-                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-mob  rounded-pill " id = 'join-mob'>Join the Wait-list now!</button>
-                    </div>
-                </form>
+            <div className = 'form-center'>
+                <div className = 'we-mob'>
+                    <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0">
+                        <div class="d-grid wrapper-mob-1">
+                            <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} className="form-control field-mob rounded-start" name="EMAIL" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2" id="inputEmail4-mob" required/>
+                            <button class="btn rounded-end field-btn-mob" type="submit" value="Subscribe" name="subscribe" id="join-mob">Join the wait-list now</button>
+                        </div>
+                    </form>
+                </div>
             </div>
          
             {/* <div className = 'we we-1-md-11'>

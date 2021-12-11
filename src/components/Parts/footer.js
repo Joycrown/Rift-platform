@@ -16,14 +16,15 @@ function Footer(){
         <section className = ''>
             <div className = "elipse py-4">
                 <div className = 'text-center submit-mob'>
-                    <button type="submit" class="btn email-btn-mob-ft rounded-pill" id = 'join-mob'>Join the Wait-list now!</button>
+                    {/* <button type="submit" class="btn email-btn-mob-ft rounded-pill" id = 'join-mob'>Join the Wait-list now!</button> */}
+                    <button class="btn rounded-end email-btn-mob-ft field-btn-mob" type="submit" value="Subscribe" name="subscribe" id="join-mob">Join the wait-list now</button>
                 </div>
             </div>
             <div className = 'footer'>
                 {/* <div className = "logo ps-4">
                         <img src = {logo} alt= 'Logo' className = 'logo-ft'></img>
                 </div> */}
-                <div className = 'nav d-flex justify-content-between'>
+                <div className = 'd-flex justify-content-between'>
                     <div className = "ps-4-md pt-5">
                         <img src = {logo} alt= 'Logo' className = 'logo-ft logo-tab' ></img>
                     </div>
@@ -39,7 +40,7 @@ function Footer(){
                             duration= {500}>Blog</Link></p>
                         </div>
                         <div className = 'text-white pt-5 company'>
-                            <h4 className = ' fsize'>Company</h4>
+                            <h4 className = ' fsize'>COMPANY</h4>
                             <p className = 'fsize-p'><Link
                             activeClass = ""
                             to = "about"
@@ -64,11 +65,11 @@ function Footer(){
                         </div>
                     </div>
                     {/* tablet */}
-                    <div className = ' links-tab '>
-                        <div className = 'd-flex justify-content-end'>
-                            <div className = 'text-white pt-5'>
-                                <h4 className = ' fsize-tab'> RESOURCES </h4>
-                                <p className = ' fsize-p-tab '><Link
+                    <div className = 'links-tab'>
+                        <div className = 'd-flex justify-content-end ft-links'>
+                            <div className = 'text-white pt-5 resources'>
+                                <h4 className = 'fsize-tab'> RESOURCES </h4>
+                                <p className = 'fsize-p-tab '><Link
                             activeClass = "active"
                             to = "blog"
                             spy = {true}
@@ -92,7 +93,6 @@ function Footer(){
                             smooth= {true}
                             offset={0}
                             duration= {500}>Why rift capital?</Link></p>
-                            
                             </div>
                             <div className = 'text-white pt-5 contact'>
                                 <h4 className = 'fsize-tab '> CONTACT </h4>
@@ -101,39 +101,46 @@ function Footer(){
                         </div>
                     </div>
                     {/* mobile */}
-                    <div className = ' links-mob '>
-                        <div className = 'd-flex justify-content-end'>
-                            <div className = 'text-white pt-4'>
-                                <h4 className = ' fsize-mob'> RESOURCES </h4>
-                                <p className = ' fsize-p-mob'> <Link
-                            activeClass = "active"
-                            to = "blog"
-                            spy = {true}
-                            smooth= {true}
-                            offset={0}
-                            duration= {500}>Blog</Link></p>
-                            </div>
-                            <div className = 'text-white pt-4 company'>
-                                <h4 className = ' fsize-mob'>COMPANY</h4>
-                                <p className = 'fsize-p-mob'> <Link
-                            activeClass = ""
-                            to = "about"
-                            spy = {true}
-                            smooth= {true}
-                            offset={0}
-                            duration= {500}>About Us</Link></p>
-                                <p className = 'fsize-p-mob'> <Link
-                            activeClass = "active"
-                            to = "why"
-                            spy = {true}
-                            smooth= {true}
-                            offset={0}
-                            duration= {500}>Why rift capital?</Link></p>
-                            
-                            </div>
-                            <div className = 'text-white pt-4 contact'>
-                                <h4 className = 'fsize-mob'> CONTACT </h4>
-                                <p className = 'fsize-p-mob'> Email</p>
+                    <div className = 'links-mob'>
+                        <div className = 'container'>
+                            <div className = 'row'>
+                                <div className = 'col-4'>
+                                    <div className = 'text-white pt-4'>
+                                        <h4 className = 'fsize-mob'> RESOURCES </h4>
+                                        <p className = 'fsize-p-mob'> <Link
+                                    activeClass = "active"
+                                    to = "blog"
+                                    spy = {true}
+                                    smooth= {true}
+                                    offset={0}
+                                    duration= {500}>Blog</Link></p>
+                                    </div>
+                                </div>
+                                <div className = 'col-4'>
+                                    <div className = 'text-white pt-4'>
+                                        <h4 className = ' fsize-mob'>COMPANY</h4>
+                                        <p className = 'fsize-p-mob'> <Link
+                                    activeClass = ""
+                                    to = "about"
+                                    spy = {true}
+                                    smooth= {true}
+                                    offset={0}
+                                    duration= {500}>About Us</Link></p>
+                                        <p className = 'fsize-p-mob'> <Link
+                                    activeClass = "active"
+                                    to = "why"
+                                    spy = {true}
+                                    smooth= {true}
+                                    offset={0}
+                                    duration= {500}>Why rift capital?</Link></p>
+                                    </div>
+                                </div>
+                                <div className = 'col-4'>
+                                    <div className = 'text-white pt-4'>
+                                        <h4 className = 'fsize-mob'> CONTACT </h4>
+                                        <p className = 'fsize-p-mob'> Email</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -160,7 +167,7 @@ function Footer(){
                         <div className = 'text-center text-white ps-2 pt-1'>
                             <p className = 'ending-p-tab' >Copyright Rift Capital 2021</p>
                         </div>
-                        <div className = ' ps-2 '>
+                        <div className = 'ps-2'>
                             <img src = {twitter} alt = 'icon1' className = 'p-2 bd-highlight '></img>
                             <img src = {facebook} alt = 'icon2' className = 'p-2 bd-highlight ic-social'></img>
                             <img src = {linkedin} alt = 'icon3' className = 'p-2 bd-highlight ic-social'></img>
@@ -178,16 +185,16 @@ function Footer(){
                                 </div>
                             </div>
                             <div className = 'col-4'>
-                                <div className = 'text-center text-white pt-4'>
+                                <div className = 'text-center text-white pt-5'>
                                     <p className = 'ending-p-mob text-decoration-underline' >Copyright Rift Capital 2021</p>
                                 </div>
                             </div>
                             <div className = 'col-4'>
-                                <div className = ' '>
-                                    <img src = {twitter1} alt = 'icon1' className = 'p-2 bd-highlight'></img>
-                                    <img src = {facebook1} alt = 'icon2' className = 'p-2 bd-highlight ic-social'></img>
-                                    <img src = {linkedin1} alt = 'icon3' className = 'p-2 bd-highlight ic-social'></img>
-                                    <img src = {instagram1} alt = 'icon4' className = 'p-2 bd-highlight ic-social'></img>
+                                <div className = ' ps-1 '>
+                                    <img src = {twitter1} alt = 'icon1' className = 'p-1 bd-highlight'></img>
+                                    <img src = {facebook1} alt = 'icon2' className = 'p-1 bd-highlight ic-social'></img>
+                                    <img src = {linkedin1} alt = 'icon3' className = 'p-1 bd-highlight ic-social'></img>
+                                    <img src = {instagram1} alt = 'icon4' className = 'p-1 bd-highlight ic-social'></img>
                                 </div>
                             </div>
                         </div>
