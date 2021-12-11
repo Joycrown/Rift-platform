@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import logo from '../images/Rift link logo.png';
 import savings from '../images/Savings 1.png';
 import savings2 from '../images/Savings 2.png';
-import logo2 from '../images/Rift link logo1.png';
+// import logo2 from '../images/Rift link logo1.png';
 import {Link} from 'react-scroll';
 // import Swal from 'sweetalert2';
 
