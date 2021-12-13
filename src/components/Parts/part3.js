@@ -32,16 +32,16 @@ function Three(){
                     </div>
                 </div>
                 <div className = 'd-flex justify-content-center'>
-                    <div className = 'layout'>
+                    <div className = 'layout layout-tab'>
                         <div className = 'container'>
                             <div className = 'row'>
                                 <div className = 'col-lg-6 col-md-6 col-sm-12 pb-4'>
-                                    <div className = 'card card-2-tab-1 card-2-mob-1 shadow '>
-                                        <div className = 'card-body-1 cb-vec rounded-3 text-center'>
+                                    <div className = 'card card-2-3 card-2-tab-3 card-2-mob-3 shadow'>
+                                        <div className = 'card-body cb-vec py-4 rounded-3 text-center'>
                                             <div className = ''>
                                                 <img src = {vec1} alt ='vector' className = 'vec-1-1 vec-1-tab vec-1-mob'></img>
                                             </div>
-                                            <p className = 'obtain obtain-tab obtain-mob text-white'> Obtain <b>Premium features</b> <br/>for free for 2 months</p>
+                                            <p className = 'obtain-1 obtain-tab obtain-mob text-white'> Obtain <b>Premium features</b> <br/>for free for 2 months</p>
                                         </div>
                                     </div>  
                                 </div>
@@ -77,7 +77,7 @@ function Three(){
                                                 <div className = ''>
                                                     <img src = {vec6} alt ='vector' className ='vec-1 vec-1-tab vec-1-mob'></img>
                                                 </div>
-                                                <p className ='obtain obtain-tab-4 obtain-mob-4 text-white'>Refer friends and earn<br/> <b>amazing rewards</b> including<br/> up
+                                                <p className ='obtain-4 obtain-tab-4 obtain-mob-4 text-white'>Refer friends and earn<br/> <b>amazing rewards</b> including<br/> up
                                                 to $1000 trading capital</p>
                                             </div>
                                         </div>  

@@ -22,38 +22,40 @@ function One(){
                 <h1 className = 'does-mobi pb-5'>Does this sound <br/>like you?</h1>
             </div>
             <div className = 'container'>
-                <div className = 'row'>
-                    <div className = ' col-lg-3 col-md-6 col-sm-6 pb-3'>
-                        <div className = 'card shadow'>
-                            <div className = 'card-body cb py-5 rounded-3 text-center'>
-                                <p className = 'card-text card-text-1440 card-text-tab card-text-mob'>Are you working class/ student/ entrepreneur looking to 
-                                increase your sources of income?</p>
+                <div className = 'layout-1 layout--1-tab'>
+                    <div className = 'row'>
+                        <div className = ' col-lg-3 col-md-6 col-sm-6 pb-3'>
+                            <div className = 'card shadow'>
+                                <div className = 'card-body cb rounded-3 text-center'>
+                                    <p className = 'card-text card-text-tab card-text-mob'>Are you working class/ student/ entrepreneur looking to 
+                                    increase your sources of income?</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3'>
-                        <div className = 'card  shadow'>
-                            <div className = 'card-body cb py-4 pt-4 rounded-3 text-center'>
-                                <p className = 'card-text-2 card-text-2-1440 card-text-tab card-text-mob'>Are you interested in earning from the forex market but you do not have the time or 
-                                    skills required to be consistently profitable?</p>
+                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3'>
+                            <div className = 'card  shadow'>
+                                <div className = 'card-body cb rounded-3 text-center'>
+                                    <p className = 'card-text-2 card-text-tab card-text-mob'>Are you interested in earning from the forex market but you do not have the time or 
+                                        skills required to be consistently profitable?</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <br/>
-                    <br/>
-                    <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3 '>
-                        <div className = 'card shadow'>
-                            <div className = 'card-body cb py-5 rounded-3 text-center'>
-                                <p className = 'card-text-3 card-text-3-1440 card-text-tab card-text-mob'>Are you tired of trading personally and
-                                     blowing your account over and over?</p>
+                        <br/>
+                        <br/>
+                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3 '>
+                            <div className = 'card shadow'>
+                                <div className = 'card-body cb  rounded-3 text-center'>
+                                    <p className = 'card-text-3 card-text-tab card-text-mob'>Are you tired of trading personally and
+                                        blowing your account over and over?</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3'>
-                        <div className = 'card shadow'>
-                            <div className = 'card-body cb py-5 rounded-3 text-center'>
-                                <p className = 'card-text card-text-1440 card-text-tab card-text-mob'>Are you scared of giving your capital to investment firms or 
-                                    traders out of fear of losing your capital? </p>
+                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3'>
+                            <div className = 'card shadow'>
+                                <div className = 'card-body cb  rounded-3 text-center'>
+                                    <p className = 'card-text card-text-tab card-text-mob'>Are you scared of giving your capital to investment firms or 
+                                        traders out of fear of losing your capital? </p>
+                                </div>
                             </div>
                         </div>
                     </div>

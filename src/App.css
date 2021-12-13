@@ -164,16 +164,20 @@
 .card-text{
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem !important;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 .card-text-2{
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem !important;
-  padding-top: 0.5rem !important;
+  padding-top: 3rem !important;
+  padding-bottom: 0.5rem !important;
 }
 .card-text-3{
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem !important;
-  padding-top: 0.5rem !important;
+  padding-top: 3rem !important;
+  padding-bottom: 3.5rem !important;
 }
 .card{
   border: 0 !important;
@@ -290,7 +294,10 @@
   padding-top: -1rem !important;
 }
 .layout{
-  width: 600px;
+  width: 50%;
+}
+.layout-1{
+  width: 100%;
 }
 .cb-vec{
   background-color: #296E0B;
@@ -314,13 +321,25 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 1.7vw !important;
   padding-top: 2rem !important;
-  margin-bottom: 3rem !important;
+  /* margin-bottom: 3rem !important; */
+}
+.obtain-1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7vw !important;
+  padding-top: 2rem !important;
+  /* margin-bottom: 6rem !important; */
 }
 .obtain-3{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.7vw !important;
   padding-top: 2rem !important;
   margin-bottom: 5.5rem !important;
+}
+.obtain-4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7vw !important;
+  padding-top: 0.5rem !important;
+  /* margin-bottom: 3rem !important; */
 }
 .too-text{
   font-family: 'Montserrat', sans-serif;
@@ -776,6 +795,9 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 2.4vw !important;
     padding-top: 15px !important;
+  }
+  .layout-tab{
+    width: 100%;
   }
   .logo-tab{
     width: 70% !important;
