@@ -2,6 +2,7 @@ import React, {useState,} from 'react';
 import image1 from '../images/Group 26.png';
 import image2 from '../images/Group 25.png';
 import image3 from '../images/Group (1).png';
+import FAQ from './FAQ';
 
 
 
@@ -70,7 +71,8 @@ function Two(){
                     </div>
                 </div>
             </div>   
-            <div className = 'we'>
+            <FAQ/>
+            <div className = 'we pt-5'>
                 <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0">
                         <div id="mc_embed_signup_scroll">
                             <div class="input-group mb-2">
@@ -80,7 +82,7 @@ function Two(){
                         </div>
                 </form>
             </div>
-            <div className = ' we-tab'>
+            <div className = 'we-tab pt-5'>
                 <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0">
                     <div id="mc_embed_signup_scroll">
                         <div class="input-group mb-2">
@@ -91,7 +93,7 @@ function Two(){
                 </form>
             </div>
             <div className = 'form-center'>
-                <div className = 'we-mob'>
+                <div className = 'we-mob pt-5'>
                     <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0">
                         <div class="d-grid wrapper-mob-1">
                             <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} className="form-control field-mob rounded-start" name="EMAIL" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2" id="inputEmail4-mob" required/>

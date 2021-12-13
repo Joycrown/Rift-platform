@@ -165,6 +165,16 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem !important;
 }
+.card-text-2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem !important;
+  padding-top: 0.5rem !important;
+}
+.card-text-3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem !important;
+  padding-top: 0.5rem !important;
+}
 .card{
   border: 0 !important;
   border-radius: none !important;
@@ -177,7 +187,7 @@
 .card-body-1{
   border: 0ch !important;
   border-radius: none !important;
-  padding-bottom: 3rem !important;
+  padding-bottom: 0rem !important;
 
 }
 
@@ -310,7 +320,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 1.7vw !important;
   padding-top: 2rem !important;
-  margin-bottom: 9rem !important;
+  margin-bottom: 5.5rem !important;
 }
 .too-text{
   font-family: 'Montserrat', sans-serif;
@@ -416,7 +426,20 @@
   display: none;
   padding-right: 20rem !important;
 }
-
+.faq{
+  font-family: 'Sunset';
+  font-size: 4vw !important;
+}
+.acco-1{
+  font-family: 'Sunset' ;
+  font-size: 2.5vw !important;
+  font-weight: 600 !important;
+}
+.acco-2{
+  font-family: 'Montserrat', sans-serif ;
+  font-size: 1.5vw !important;
+  font-weight: 500 !important;
+}
 .head-content-tab, .head-content-mob, .savings-mob, .header-mobile {
   display: none;
 }
@@ -491,6 +514,47 @@
 }
 .logo-mobile{
   display: none;
+}
+.card-1440{
+  display: none;
+}
+
+@media (max-width: 1440px){
+
+  .card-1440{
+    display:block;
+  }
+  .card-text-1440{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem !important;
+    padding-top: 1.5rem !important;
+  }
+  .card-text-2-1440{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem !important;
+    padding-top: 0.5rem !important;
+  }
+  .card-text-3-1440{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem !important;
+    padding-top: 0.5rem !important;
+  }
+  .card{
+    border: 0 !important;
+    border-radius: none !important;
+  }
+  .card-body{
+    border: 0ch !important;
+    border-radius: none !important;
+   
+  }
+  .card-body-1-1440{
+    border: 0ch !important;
+    border-radius: none !important;
+    padding-bottom: 0rem !important;
+  
+  }
+
 }
 
 @media (max-width: 768px){
@@ -745,6 +809,20 @@
   .ending-p-tab{
     font-family: 'Montserrat', sans-serif;
   }
+  .faq-tab{
+    font-family: 'Sunset';
+    font-size: 6vw !important;
+  }
+  .acco-1-tab{
+    font-family: 'Sunset' ;
+    font-size: 4vw !important;
+    font-weight: 600 !important;
+  }
+  .acco-2-tab{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 2.5vw !important;
+    font-weight: 500 !important;
+  }
 
 
     /* .cb-2-md{
@@ -996,7 +1074,7 @@
   
   .does-mob{
     display: block;
-    padding-top: 4rem;
+    padding-top: 6rem;
   }
   .does-mobi{
     font-family: 'Sunset';
@@ -1082,20 +1160,14 @@
     padding-top: 20px !important; */
   }
   .vec-1-mob{
-    width: 30% !important;
-    padding-top: 1rem !important;
+    width: 25% !important;
+    padding-top: 2rem !important;
   }
   .if-mob{
     display: block;
     font-family: 'Montserrat', sans-serif;
     /* padding-top: 1.5rem; */
     text-transform: uppercase;
-  }
-  .form-cente{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-   
   }
   .we-mob{
     display: block;
@@ -1106,12 +1178,12 @@
   .why-text-mob{
     display: block;
     font-family: 'Montserrat', sans-serif;
-    font-size: 4vw !important;
+    font-size: 3.5vw !important;
     /* font-weight: 400; */
     text-transform: uppercase;
   }
   .image-mob{
-    width: 70%;
+    width: 60%;
     padding-left: 4rem !important;
     margin-left: 1rem !important;
   }
@@ -1186,6 +1258,23 @@
     padding-top: 1rem !important;
     padding-left: 1rem !important;
     margin-top: 0rem !important;
+  }
+  .faq-mob{
+    
+  }
+  .acco-1-mob{
+    font-family: 'Sunset' ;
+    font-size: 5vw !important;
+    font-weight: 600 !important;
+  }
+  .faq-mob{
+    font-family: 'Sunset';
+    font-size: 8vw !important;
+  }
+  .acco-2-mob{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 3vw !important;
+    font-weight: 500 !important;
   }
   .sub-text-sm{
     font-size: 0.75rem;
