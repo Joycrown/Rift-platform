@@ -28,14 +28,15 @@ function Footer(){
                             <div className = ''>
                                 <h3 className='text-white find-us-1 find-us-1-tab find-us-1-mob'>Find Us Online</h3>
                                 <div class="">
-                                    <div className = 'find-us-btn find-us-btn-tab find-us-btn-mob'>
+                                    <div className = 'text-white find-us-btn find-us-btn-tab find-us-btn-mob'>
                                         <a href = 'https://linkedin.com/company/rift-capital-ltd'>Linkedin</a>
                                     </div>
-                                    <div className = 'find-us-btn find-us-btn-tab find-us-btn-mob'>
+                                    <div className = 'text-white find-us-btn find-us-btn-tab find-us-btn-mob'>
+                                       
                                         <a href = 'https://instagram.com/rift.link'>Instagram</a>
                                     </div>
-                                    <div className = 'find-us-btn find-us-btn-tab find-us-btn-mob'>
-                                        <a href = 'https://instagram.com/rift.link'>Facebook</a>
+                                    <div className = 'text-white find-us-btn find-us-btn-tab find-us-btn-mob'>
+                                        <a href = 'https://facebook.com/riftlink.ng'>Facebook</a>
                                     </div>
                                 </div>
                             </div>
