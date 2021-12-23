@@ -435,13 +435,17 @@
   margin-left: 7rem !important;
   margin-top: 2rem !important;
 }
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
 a:link{
   color: white;
   text-decoration: none;
 }
-/* a:visited{
-  color: blue;
-} */
+a:visited{
+  color: purple;
+}
 a:hover{
   color: blue;
   text-decoration: none;
