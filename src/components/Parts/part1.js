@@ -27,7 +27,7 @@ function One(){
                         <div className = ' col-lg-3 col-md-6 col-sm-6 pb-3'>
                             <div className = 'card shadow'>
                                 <div className = 'card-body cb rounded-3 text-center'>
-                                    <p className = 'card-text card-text-tab card-text-mob'>Are you working class/ student/ entrepreneur looking to 
+                                    <p className = 'card-text-3 card-text-tab-1 card-text-mob'>Are you working class/ student/ entrepreneur looking to 
                                     increase your sources of income?</p>
                                 </div>
                             </div>
@@ -44,8 +44,8 @@ function One(){
                         <br/>
                         <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3 '>
                             <div className = 'card shadow'>
-                                <div className = 'card-body cb  rounded-3 text-center'>
-                                    <p className = 'card-text-3 card-text-tab card-text-mob'>Are you tired of trading personally and
+                                <div className = 'card-body cb rounded-3 text-center'>
+                                    <p className = 'card-text-3 card-text-tab-1 card-text-mob'>Are you tired of trading personally and
                                         blowing your account over and over?</p>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ function One(){
                         <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3'>
                             <div className = 'card shadow'>
                                 <div className = 'card-body cb  rounded-3 text-center'>
-                                    <p className = 'card-text card-text-tab card-text-mob'>Are you scared of giving your capital to investment firms or 
+                                    <p className = 'card-text-3 card-text-tab card-text-mob'>Are you scared of giving your capital to investment firms or 
                                         traders out of fear of losing your capital? </p>
                                 </div>
                             </div>

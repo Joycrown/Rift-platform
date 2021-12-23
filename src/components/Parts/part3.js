@@ -51,7 +51,7 @@ function Three(){
                                                 <div className = ''>
                                                     <img src = {vec2} alt ='vector' className = 'vec-1 vec-1-tab vec-1-mob'></img>
                                                 </div>
-                                                <p className = 'obtain obtain-tab obtain-mob text-white'>Gain <b>first mover advantage </b> <br/>
+                                                <p className = 'obtain obtain-0 obtain-tab-2 obtain-mob text-white'>Gain <b>first mover advantage </b> <br/>
                                                 by being a founding member of our private community.</p>
                                             </div>
                                         </div>  
@@ -77,7 +77,7 @@ function Three(){
                                                 <div className = ''>
                                                     <img src = {vec6} alt ='vector' className ='vec-1 vec-1-tab vec-1-mob'></img>
                                                 </div>
-                                                <p className ='obtain-4 obtain-tab-4 obtain-mob-4 text-white'>Refer friends and earn<br/> <b>amazing rewards</b> including<br/> up
+                                                <p className ='obtain-4 obtain-4-0 obtain-tab-4 obtain-mob-4 text-white'>Refer friends and earn<br/> <b>amazing rewards</b> including<br/> up
                                                 to $1000 trading capital</p>
                                             </div>
                                         </div>  

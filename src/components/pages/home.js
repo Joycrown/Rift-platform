@@ -3,7 +3,7 @@ import logo from '../images/Rift link logo.png';
 import savings from '../images/Savings 1.png';
 import savings2 from '../images/Savings 2.png';
 // import logo2 from '../images/Rift link logo1.png';
-import {Link} from 'react-scroll';
+// import {Link} from 'react-scroll';
 // import Swal from 'sweetalert2';
 
 
@@ -47,7 +47,7 @@ function Home(){
                 <div className = "logo-mobile">
                     <img src = {logo} alt= 'Logo' className = 'logo-1-mob'></img>
                 </div>
-                    <div className = ''>
+                    {/* <div className = ''>
                         <h3 className = 'blog blog-tab blog-mob'><Link
                                 activeClass = "active"
                                 to = "blog"
@@ -55,7 +55,7 @@ function Home(){
                                 smooth= {true}
                                 offset={0}
                                 duration= {500}>Blog</Link></h3>
-                    </div>
+                    </div> */}
                 </div>
             {/* <div className = 'nav-mob d-flex justify-content-between'>
                 <div className = "">

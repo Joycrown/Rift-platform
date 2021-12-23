@@ -21,7 +21,7 @@
   margin-bottom: 1rem !important;
   padding-top: 1rem !important;
   padding-left: 4rem !important;
-  /* margin-left: 4rem !important; */
+  margin-left: 2rem !important;
 }
 .header{
   background-color: hsl(203, 96%, 18%) !important;
@@ -57,12 +57,12 @@
 
 .text-heading{
   font-family: 'Sunset';
-  font-size: 5vw !important;
+  font-size: 5.3vw !important;
 }
 
 .sub-text{
   font-family: 'Montserrat', sans-serif; 
-  font-size: 1.5vw !important;
+  font-size: 1.6vw !important;
 }
 .input-group{
   width: 100% !important;
@@ -179,7 +179,7 @@
   padding-top: 3rem !important;
   padding-bottom: 3.5rem !important;
 }
-.card{
+/* .card{
   border: 0 !important;
   border-radius: none !important;
 }
@@ -187,7 +187,7 @@
   border: 0ch !important;
   border-radius: none !important;
  
-}
+} */
 .card-body-1{
   border: 0ch !important;
   border-radius: none !important;
@@ -339,7 +339,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 1.7vw !important;
   padding-top: 0.5rem !important;
-  /* margin-bottom: 3rem !important; */
+  margin-bottom: 2rem !important;
 }
 .too-text{
   font-family: 'Montserrat', sans-serif;
@@ -362,16 +362,27 @@
   background-color:  #1D1D1D;
 }
 .links{
-  width: 60%;
-  display: inline-flex;
-  margin-right: 3rem !important;
+  width: 100%;
 }
-.contact{
-  margin-left: 5rem !important;
+.find-us{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5vw !important;
+  /* margin-left: 5rem !important; */
 }
-.company{
-  margin-left: 5rem !important;
+.find-us-1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5vw !important;
+  /* margin-left: 18rem !important; */
 }
+.us{
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.find-us-btn{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4vw !important;
+}
+
 .fsize{
   font-family: 'Montserrat', sans-serif;
   font-size: 2vw !important;
@@ -407,17 +418,10 @@
   display: block;
 }
 .logo-ft{
-  width: 100% !important;
-  padding-left: 2rem !important;
+  width: 12% !important;
+  height: 3.5vw !important;
+  /* padding-left: 2rem !important; */
 }
-/* .copy{
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.01em;
-  padding-top: 3rem !important;
-} */
 .con{
   /* width: 100% !important; */
   margin-left: 5rem !important;
@@ -431,6 +435,17 @@
   margin-left: 7rem !important;
   margin-top: 2rem !important;
 }
+a:link{
+  color: white;
+  text-decoration: none;
+}
+a:visited{
+  color: blue;
+}
+a:hover{
+  color: pink;
+  text-decoration: none;
+}
 
 .ending-1{
   margin-top: 2rem !important;
@@ -440,6 +455,7 @@
 .ending-p{
   font-family:'Montserrat', sans-serif ;
   font-size: 1.5vw !important;
+  padding-right: 8.5rem !important;
 }
 .savings-2{
   display: none;
@@ -448,6 +464,9 @@
 .faq{
   font-family: 'Sunset';
   font-size: 4vw !important;
+}
+.social-links{
+  padding-right: 30px !important;
 }
 .acco-1{
   font-family: 'Sunset' ;
@@ -489,9 +508,7 @@
 .submit-mob{
   display: none;
 }
-.links-tab{
-  display: none;
-}
+
 .links-mob{
   display: none;
 }
@@ -537,41 +554,46 @@
 .card-1440{
   display: none;
 }
-
-@media (max-width: 1440px){
-
-  .card-1440{
-    display:block;
-  }
-  .card-text-1440{
+@media (max-width: 1210px){
+  .card-text{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem !important;
-    padding-top: 1.5rem !important;
+    padding-top: 3rem !important;
+    /* padding-bottom: 4.4rem !important; */
   }
-  .card-text-2-1440{
+  .obtain-4{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem !important;
+    font-size: 1.7vw !important;
     padding-top: 0.5rem !important;
+    margin-bottom: 0rem !important;
   }
-  .card-text-3-1440{
+  .obtain{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vw !important;
+    padding-top: 2rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+}
+@media (max-width: 2560px){
+
+  .card-text-0{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3.7rem !important;
+  }
+  .obtain-4-0{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vw !important;
     padding-top: 0.5rem !important;
+    margin-bottom: 0rem !important;
   }
-  .card{
-    border: 0 !important;
-    border-radius: none !important;
-  }
-  .card-body{
-    border: 0ch !important;
-    border-radius: none !important;
-   
-  }
-  .card-body-1-1440{
-    border: 0ch !important;
-    border-radius: none !important;
-    padding-bottom: 0rem !important;
-  
+  .obtain-0{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vw !important;
+    padding-top: 2rem !important;
+    margin-bottom: 0rem !important;
   }
 
 }
@@ -579,7 +601,7 @@
 @media (max-width: 768px){
 
   .pb-1-tab{
-    width: 50% !important;
+    width: 45% !important;
     padding-right: 2rem !important;
   }
   .head-content{
@@ -606,15 +628,11 @@
     .do-head-mob{
       display: none;
     }
-    .links{
-      display: none;
-    }
+  
     .links-mob{
       display: none;
     }
-    .ending-des{
-      display: none;
-    }
+    
     .ending-mob{
       display: none;
     }
@@ -629,7 +647,7 @@
     }
     .logo-1-tab{
       display: block;
-      width: 80% !important;
+      width: 90% !important;
       margin-top: 1rem !important;
       padding-top: 1rem !important;
       padding-left: 4rem !important;
@@ -651,11 +669,11 @@
     }
     .text-heading-tab{
       font-family: 'Sunset';
-      font-size: 5vw !important;
+      font-size: 5.3vw !important;
     }
     .sub-text-tab{
       font-family: 'Montserrat', sans-serif; 
-      font-size: 1.6vw !important;
+      font-size: 1.7vw !important;
     }
     .h6-tab{
       font-size: 1.6vw !important;
@@ -688,6 +706,12 @@
     font-size: 2.5vw!important;
     font-weight: 600 !important;
   }
+  .card-text-tab-1{
+    font-size: 2.5vw!important;
+    font-weight: 600 !important;
+    padding-bottom: 5rem !important;
+  }
+  
   .scared-tab{
     padding-top: 1rem !important;
   }
@@ -713,36 +737,43 @@
   }
   .obtain-tab{
     font-family: 'Montserrat', sans-serif;
-    font-size: 4vw !important;
+    font-size: 2.5vw !important;
+    padding-bottom: 40px !important;
+  }
+  .obtain-tab-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw !important;
+    padding-bottom: 5px !important;
   }
   .obtain-tab-3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 4vw !important;
+    font-size: 2.5vw !important;
     padding-left: 20px !important;
   }
   .obtain-tab-4{
     font-family: 'Montserrat', sans-serif;
-    font-size: 4vw !important;
+    font-size: 2.5vw !important;
     margin-top: 10px !important;
     padding-top: 20px !important;
+    padding-bottom: 47px !important;
   }
   .vec-1-tab{
     width: 20% !important;
     /* height: 30vw !important; */
   }
   .card-2-tab{
-    width: 70% !important;
-    margin-left: 80px !important;
+    width: 90% !important;
+    margin-left: 20px !important;
   }
   .card-2-tab-1{
-    width: 70% !important;
-    margin-left: 80px !important;
+    width: 90% !important;
+    margin-left:20px !important;
     margin-bottom: 30px !important;
   }
   .card-2-tab-3{
-    width: 70% !important;
-    margin-left: 80px !important;
-    margin-bottom: 40px !important;
+    width: 90% !important;
+    margin-left:  20px !important;
+    /* margin-bottom: 20px !important; */
   }
   .you-text-tab{
     font-family:'Montserrat', sans-serif;
@@ -775,20 +806,20 @@
   }
   .earn-tab{
     font-family: 'Sunset-Serial';
-    font-size: 5vw !important;
+    font-size: 4vw !important;
     font-weight: 700 !important;
     text-align: center;
   }
   .p-text-tab{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 3vw !important;
+    font-size: 2.5vw !important;
     font-weight: 500 !important;
     padding-bottom: 3rem !important;
   }
   .image-tab{
-    width: 60%;
-    margin-left: 4rem !important;
+    width: 100%;
+    margin-left: -2rem !important;
   }
   .too-text-tab{
     display: block;
@@ -800,7 +831,8 @@
     width: 100%;
   }
   .logo-tab{
-    width: 70% !important;
+    width: 18% !important;
+    height: 4vw !important;
   }
   .links-tab{
     display: block;
@@ -808,15 +840,15 @@
     /* margin-right: 9rem !important; */
     padding-right: 1rem !important;
   }
-  /* .company{
-    padding-right: 3rem !important;
-  } */
-  .contact{
-    padding-right: -10rem !important;
+  
+  .find-us-1-tab{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw !important;
+    /* margin-left: 18rem !important; */
   }
-  .ft-links{
-    /* padding-right: 5px !important; */
-    /* margin-right: 5px !important; */
+  .find-us-btn-tab{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8vw !important;
   }
   .fsize-tab{
     font-family: 'Montserrat', sans-serif;
@@ -830,6 +862,8 @@
   }
   .ending-p-tab{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2vw !important;
+    padding-right: 5rem !important;
   }
   .faq-tab{
     font-family: 'Sunset';
@@ -976,7 +1010,7 @@
   .too-text, .too-text-tab{
     display: none;
   }
-  .links, .links-tab, .logo-ft, .logo-gn{
+   .logo-gn{
     display: none;
   }
   .ending-tab{
@@ -999,8 +1033,9 @@
   .logo-mobile{
     display: block;
   }
-  .blog-mob{
-    font-family: 'Montserrat', sans-serif, sans-serif;
+  .logo-mob{
+    width: 18% !important;
+    height: 4vw !important;
   }
   .header-mobile{
     display: block;
@@ -1018,7 +1053,7 @@
   }
   .sub-text-mob{
     font-family:'Montserrat', sans-serif;
-    font-size: 2.5vw !important;
+    font-size: 2.7vw !important;
   }
   .wrapper-mob{
     width: 100% !important;
@@ -1129,7 +1164,7 @@
   }
   .logo-1-mob{
     display: block;
-    width: 50% !important;
+    width: 80% !important;
     /* margin-top: 1rem !important; */
     padding-top: 3rem !important;
     padding-left: 1rem !important;
@@ -1254,6 +1289,15 @@
     /* padding-right: 1rem !important;
     margin-bottom: -1rem !important; */
   }
+  .find-us-1-mob{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.8vw !important;
+    /* margin-left: 18rem !important; */
+  }
+  .find-us-btn-mob{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2vw !important;
+  }
   .fsize-mob{
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5vw !important;
@@ -1272,9 +1316,9 @@
     width: 60% !important;
   }
   .ending-p-mob{
-    font-family:'Montserrat', sans-serif ;
-    font-size: 2.2vw !important;
-    /* margin-right: 1rem !important; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw !important;
+    padding-right: 5rem !important;
   }
   .py-5-s{
     padding-top: 1rem !important;

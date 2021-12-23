@@ -7,7 +7,7 @@ import React from 'react';
 function FAQ(){
     return(
         <section className = 'container'>
-            <h1 className = 'text-center faq faq-tab faq-mob'> FAQ</h1>
+            <h1 className = 'text-center faq faq-tab faq-mob'>Frequently Asked Question</h1>
             <div className = 'd-flex justify-content-around'>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
