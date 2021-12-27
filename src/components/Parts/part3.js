@@ -72,7 +72,7 @@ function Three(){
                                 </div>
                                
                                 <div className = 'col-lg-6 col-md-6 col-sm-12'>
-                                    <div className = 'card card-2 card-2-tab card-2-mob shadow'>
+                                    <div className = 'card card-2 card-2-tab card-2-mob-4 shadow'>
                                         <div className = 'card-body cb-vec py-4 rounded-3 text-center'>
                                                 <div className = ''>
                                                     <img src = {vec6} alt ='vector' className ='vec-1 vec-1-tab vec-1-mob'></img>
@@ -134,7 +134,7 @@ function Three(){
                         <h2 className = 'fw-bold you-text text-white pt-2 pb-5'>
                             You can be one of them too️!
                         </h2>
-                        <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-ft pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button>
+                        {/* <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-ft pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button> */}
                     </div>
                     {/* tablet */}
                     <div className = 'too-text-tab'>
@@ -148,7 +148,7 @@ function Three(){
                         <h2 className = 'fw-bold you-text-tab text-white pt-3 pb-5'>
                             You can be one of them too️!
                         </h2>
-                        <button class="btn rounded-pill field-btn" type="submit" value="Subscribe" name="subscribe" id="join-tab">Join waitlist now</button>
+                        {/* <button class="btn rounded-pill field-btn" type="submit" value="Subscribe" name="subscribe" id="join-tab">Join waitlist now</button> */}
                     </div>
                 </div>
             </div>

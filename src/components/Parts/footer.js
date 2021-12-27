@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState,} from 'react';
 import logo from '../images/Asset 3@4x 1.png';
 // import twitter from '../images/Vector (1).png';
 // import facebook from '../images/Vector (2).png';
@@ -12,12 +12,30 @@ import logo from '../images/Asset 3@4x 1.png';
 // import {Link} from 'react-scroll'
 
 function Footer(){
+    const initialValues = {EMAIL: "", };
+    const [formValues, setFormValues] = useState(initialValues);
+    // const [formErrors, setFormErrors] = useState({});
+    // const [isSubmit, setIsSubmit] = useState(false);
+
+    
+    const handleChange = (e) =>{
+        // console.log(e.target);
+        const {name, value} = e.target;
+        setFormValues({...formValues,[name]: value});
+        console.log(formValues);
+    };
     return(
         <section className = ''>
             <div className = "elipse py-4">
                 <div className = 'text-center submit-mob'>
-                    {/* <button type="submit" class="btn email-btn-mob-ft rounded-pill" id = 'join-mob'>Join the Wait-list now!</button> */}
-                    <button class="btn rounded-end email-btn-mob-ft field-btn-mob" type="submit" value="Subscribe" name="subscribe" id="join-mob">Join the wait-list now</button>
+                <div className = 'we-mob pt-5'>
+                    <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0">
+                        <div class="d-grid wrapper-mob-1">
+                            <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} className="form-control field-mob rounded-start" name="EMAIL" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2" id="inputEmail4-mob" required/>
+                            <button class="btn rounded-end field-btn-mob" type="submit" value="Subscribe" name="subscribe" id="join-mob">Join the wait-list now</button>
+                        </div>
+                    </form>
+                </div>
                 </div>
             </div>
             <div className = 'footer'>
@@ -43,7 +61,8 @@ function Footer(){
                             <div className = ''>
                              <h3 className='text-white find-us-1 find-us-1-tab find-us-1-mob'>Contact Us</h3>  
                                     <div className = 'links'>
-                                        <h3 className='text-white find-us-btn find-us-btn-tab find-us-btn-mob'>riftcapital7@gmail.com</h3>
+                                        {/* <h3 className='text-white find-us-btn find-us-btn-tab find-us-btn-mob'></h3> */}
+                                        <a href = 'https://us17.list-manage.com/contact-form?u=3d0c961e139280b56dff09d86&form_id=67f0907612afc8ebd6741485c017a852'>Send Us A Message</a>
                                     </div>
                             </div>
                         </div>            

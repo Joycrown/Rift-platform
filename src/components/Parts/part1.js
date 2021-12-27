@@ -22,38 +22,38 @@ function One(){
                 <h1 className = 'does-mobi pb-5'>Does this sound <br/>like you?</h1>
             </div>
             <div className = 'container'>
-                <div className = 'layout-1 layout--1-tab'>
+                <div className = ' layout-1-tab'>
                     <div className = 'row'>
-                        <div className = ' col-lg-3 col-md-6 col-sm-6 pb-3'>
-                            <div className = 'card shadow'>
-                                <div className = 'card-body cb rounded-3 text-center'>
-                                    <p className = 'card-text-3 card-text-tab-1 card-text-mob'>Are you working class/ student/ entrepreneur looking to 
+                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-2'>
+                            <div className = 'card'>
+                                <div className = 'cb rounded-3 text-center'>
+                                    <p className = 'card-text card-text-tab-1 card-text-mob'>Are you working class /student/ entrepreneur looking to 
                                     increase your sources of income?</p>
                                 </div>
                             </div>
                         </div>
-                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3'>
-                            <div className = 'card  shadow'>
-                                <div className = 'card-body cb rounded-3 text-center'>
-                                    <p className = 'card-text-2 card-text-tab card-text-mob'>Are you interested in earning from the forex market but you do not have the time or 
+                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-2'>
+                            <div className ='card'>
+                                <div className ='cb rounded-3 text-center'>
+                                    <p className ='card-text-tab card-text-mob'>Are you interested in earning from the forex market but you do not have the time or 
                                         skills required to be consistently profitable?</p>
                                 </div>
                             </div>
                         </div>
                         <br/>
                         <br/>
-                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3 '>
-                            <div className = 'card shadow'>
-                                <div className = 'card-body cb rounded-3 text-center'>
-                                    <p className = 'card-text-3 card-text-tab-1 card-text-mob'>Are you tired of trading personally and
+                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-2'>
+                            <div className = 'card'>
+                                <div className = 'cb rounded-3 text-center'>
+                                    <p className = 'card-text card-text-tab-1 card-text-mob'>Are you tired of trading personally and
                                         blowing your account over and over?</p>
                                 </div>
                             </div>
                         </div>
-                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-3'>
-                            <div className = 'card shadow'>
-                                <div className = 'card-body cb  rounded-3 text-center'>
-                                    <p className = 'card-text-3 card-text-tab card-text-mob'>Are you scared of giving your capital to investment firms or 
+                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-2'>
+                            <div className = 'card'>
+                                <div className = 'cb rounded-3 text-center'>
+                                    <p className = 'card-text-4 card-text-tab card-text-mob'>Are you scared of giving your capital to investment firms or 
                                         traders out of fear of losing your capital? </p>
                                 </div>
                             </div>
