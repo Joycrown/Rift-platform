@@ -1013,11 +1013,11 @@ a:hover{
     height: 4vw !important;
   }
   .header-mobile{
-    width: 96% !important;
+    width: 100% !important;
     display: block;
     background-color: hsl(203, 96%, 18%) !important;
     height: 75vw;
-    margin-left: 0.5rem !important;
+    /* margin-left: 0.5rem !important; */
   }
   .head-content-mob{
     display: block;
