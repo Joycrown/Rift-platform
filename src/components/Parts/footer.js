@@ -60,8 +60,7 @@ function Footer(){
                             </div>
                             <div className = ''>
                              <h3 className='text-white find-us-1 find-us-1-tab find-us-1-mob'>Contact Us</h3>  
-                                    <div className = 'links'>
-                                        {/* <h3 className='text-white find-us-btn find-us-btn-tab find-us-btn-mob'></h3> */}
+                                    <div className = 'links find-us-btn find-us-btn-tab find-us-btn-mob-1'>
                                         <a href = 'https://us17.list-manage.com/contact-form?u=3d0c961e139280b56dff09d86&form_id=67f0907612afc8ebd6741485c017a852'>Send Us A Message</a>
                                     </div>
                             </div>
