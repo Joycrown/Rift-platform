@@ -2,9 +2,7 @@ import React, {useState} from 'react';
 import logo from '../images/Rift link logo.png';
 import savings from '../images/Savings 1.png';
 import savings2 from '../images/Savings 2.png';
-// import logo2 from '../images/Rift link logo1.png';
-// import {Link} from 'react-scroll';
-// import Swal from 'sweetalert2';
+
 
 
 
@@ -13,31 +11,13 @@ import savings2 from '../images/Savings 2.png';
 function Home(){
     const initialValues = {EMAIL: "", };
     const [formValues, setFormValues] = useState(initialValues);
-    // const [formErrors, setFormErrors] = useState({});
-    // const [isSubmit, setIsSubmit] = useState(false);
+    
 
     const handleChange = (e) =>{
-        // console.log(e.target);
         const {name, value} = e.target;
         setFormValues({...formValues,[name]: value});
         console.log(formValues);
     };
-    // const handleSubmit = (e) =>{
-    //     setFormErrors(validate(formValues));
-    //     setIsSubmit(true);
-    // };
-
-   
-    
-    // const validate = (values) =>{
-    //     const errors = {};
-    //     const regex =/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    //     if (!values.EMAIL){
-    //         errors.EMAIL = " Email is required!";
-    //     } else if(!regex.test(values.EMAIL))
-    //       errors.EMAIL = "please, enter a valid email address!";
-    //     return errors;
-    // };
     return(
         <section className = 'body' id= 'home'>
             <div className = 'na d-flex justify-content-between'>
@@ -47,30 +27,9 @@ function Home(){
                 <div className = "logo-mobile">
                     <img src = {logo} alt= 'Logo' className = 'logo-1-mob'></img>
                 </div>
-                    {/* <div className = ''>
-                        <h3 className = 'blog blog-tab blog-mob'><Link
-                                activeClass = "active"
-                                to = "blog"
-                                spy = {true}
-                                smooth= {true}
-                                offset={0}
-                                duration= {500}>Blog</Link></h3>
-                    </div> */}
+                   
                 </div>
-            {/* <div className = 'nav-mob d-flex justify-content-between'>
-                <div className = "">
-                    <img src = {logo2} alt= 'Logo' className = 'logo-mob-1'></img>
-                </div>
-                <div className = ''>
-                    <h3 className = 'blog-mob'><Link
-                            activeClass = "active"
-                            to = "blog"
-                            spy = {true}
-                            smooth= {true}
-                            offset={0}
-                            duration= {500}>Blog</Link></h3>
-                </div>
-            </div> */}
+           
             <div className = ' header rounded-3 text-white py-5'>
                 <div className = ' d-sm-flex d-md-flex d-lg-flex justify-content-sm-between justify-content-md-between justify-content-lg-between w-100'>
                     <div className = 'head-content'>
@@ -135,10 +94,6 @@ function Home(){
                     </div>
                 </div>
             </div>
-            {/* <div className = ''>
-                <img src = {savings2} alt = 'savings' className = ' savings-mob'></img>
-            </div> */}
-           
         </section>
       
     )

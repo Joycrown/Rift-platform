@@ -9,12 +9,9 @@ import FAQ from './FAQ';
 function Two(){
     const initialValues = {EMAIL: "", };
     const [formValues, setFormValues] = useState(initialValues);
-    // const [formErrors, setFormErrors] = useState({});
-    // const [isSubmit, setIsSubmit] = useState(false);
-
     
     const handleChange = (e) =>{
-        // console.log(e.target);
+        
         const {name, value} = e.target;
         setFormValues({...formValues,[name]: value});
         console.log(formValues);
@@ -102,15 +99,6 @@ function Two(){
                     </form>
                 </div>
             </div>
-         
-            {/* <div className = 'we we-1-md-11'>
-                <form class="row g-0 py-3 pb-5">
-                    <div class="wrapper wrapper-medium-1">
-                        <input type="email" class="form-control email-space email-space-medium-1 rounded-pill text-white" placeholder= "Your email" id="inputEmail4"/>
-                        <button type="submit" class="btn email-btn-1 email-btn-1-medium-1 rounded-pill" id = 'join'>Notify Me When Ready</button>
-                    </div>
-                </form>
-            </div> */}
         </section>
 
 

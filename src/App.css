@@ -383,27 +383,6 @@
   font-size: 1.5vw !important;
   font-weight: 400 !important;
 }
-
-.ft{
-  padding-left: 20rem !important;
-  margin-right: 2rem !important;
-  padding-right: 3rem !important;
-  margin-right: 0rem !important;
-  padding-top: 4rem !important;
-
-}
-.ftt{
-  padding-right: 3rem !important;
-  margin-right: 0rem !important;
-  padding-top: 4rem !important;
-
-}
-.fttt{
-  padding-right: 10rem !important;
-  padding-left: 0rem !important;
-  margin-right: 0rem !important;
-  padding-top: 4rem !important;
-}
 .nav{
   display: block;
 }
@@ -548,29 +527,7 @@ a:hover{
 .card-1440{
   display: none;
 }
-@media (max-width: 1200px){
 
-  .card-text-3-0{
-    /* font-family: 'Montserrat', sans-serif;
-    font-size: 1rem !important;
-    padding-top: 3rem !important;
-    padding-bottom: 3.5rem !important; */
-  }
-  .obtain-4-0{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.7vw !important;
-    padding-top: 0.5rem !important;
-    margin-bottom: 0rem !important;
-  }
-  .obtain-0{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.7vw !important;
-    padding-top: 2rem !important;
-    margin-bottom: 0rem !important;
-  }
-
-}
-  
 
 
 @media (max-width: 768px){
@@ -677,16 +634,7 @@ a:hover{
   .h5-tab{
     font-size: 0.4rem !important;
   }
-  /* .card-text-tab{
-    font-size: 2.5vw!important;
-    font-weight: 600 !important;
-  } */
-  /* .card-text-tab-1{
-    font-size: 2.5vw!important;
-    font-weight: 600 !important;
-    padding-bottom: 5rem !important;
-  } */
-  
+ 
   .scared-tab{
     padding-top: 1rem !important;
   }
@@ -854,103 +802,6 @@ a:hover{
     font-size: 2.5vw !important;
     font-weight: 500 !important;
   }
-
-
-    /* .cb-2-md{
-      background-color: #3BAD0A80 ;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.3rem;
-      font-weight: 900;
-      line-height: 25px;
-      text-transform: uppercase;
-      padding-top: 2rem !important;
-    } */
-    .cb-md{
-      background-color: #3BAD0A80;
-      font-family: 'Montserrat', sans-serif;
-      text-transform: uppercase;
-    }
-    .if-md{
-      font-family: 'Montserrat', sans-serif;
-      width: 500px !important;
-      text-transform: uppercase;
-      margin-left: 9rem !important;
-    }
-    .why-text-md{
-      font-family: Roboto;
-      font-weight: 900 !important;
-      font-size: 20px;
-      line-height: 28px;
-      text-transform: uppercase;
-      letter-spacing: 0.01rem;
-    }
-    .pt-3-earn{
-      padding-top: 2rem !important;
-    }
-    .image-md{
-      padding-left: 4rem;
-    }
-    .we-btn-1{
-      margin-left: 10rem !important;
-      padding: 0rem !important;
-    }
-    .do-text-md{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 40px;
-      width: 750px;
-      padding-left: 1rem;
-      text-transform: uppercase;
-      text-align: center;
-    }
-    .we-1-md{
-      padding-left: 0rem;
-      padding-right: 0rem;
-      margin-left: 6rem;
-      margin-right: 6rem;
-    }
-    
-    .col-md-3{
-      display: flexbox;
-      justify-content: space-around !important;
-    }
-    .ps-4-md{
-      margin-right: 0rem !important;
-      margin-left: -2rem !important;
-      padding-left: 0rem !important;
-      padding-right: 2rem !important;
-    }
-  
-    .fsize-md{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1rem !important;
-      font-weight: 400 !important;
-    }
-    .fsize-p-md{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 0.85rem;
-      font-weight: 500;
-    }
-    .ft-md{
-      padding-left: 12rem !important;
-      padding-right: 0rem !important;
-      margin-right: 3rem !important;
-      padding-top: 4rem !important;
-     
-    }
-    .ftt-md{
-      padding-right: 0rem !important;
-      margin-right: 1rem !important;
-      padding-top: 4rem !important;
-    
-    }
-    .fttt-md{
-      padding-right: 1rem !important;
-      padding-left: 1rem !important;
-      /* margin-right: 0rem !important; */
-      padding-top: 4rem !important;
-    }
     .ending-tab{
       display: block;
     }
@@ -1143,17 +994,12 @@ a:hover{
   .logo-1-mob{
     display: block;
     width: 80% !important;
-    /* margin-top: 1rem !important; */
     padding-top: 3rem !important;
     padding-left: 1rem !important;
     padding-bottom: 1rem !important;
-   
-    
-    /* padding-bottom: 1rem!important; */
   }
   .nav-mob{
     padding-top: 0rem;
-    /* margin-bottom: 3rem; */
   }
   .blog-mob{
     font-size: 4vw !important;
@@ -1170,7 +1016,6 @@ a:hover{
   .card-2-mob-1{
     width: 90% !important;
     margin-left: 10px !important;
-    /* margin-bottom: 30px !important; */
   }
   .card-2-mob-3{
     width: 90% !important;
@@ -1256,11 +1101,8 @@ a:hover{
     background: url(./components/images/Ellipse\ 1\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 100% !important; */
     margin-top: -3rem !important;
-    /* padding-bottom: -10rem !important; */
-    /* padding-right: 6rem !important; */
-    /* margin-right: 4rem !important; */
+    
   }
   .submit-mob{
     display: block;
@@ -1269,13 +1111,12 @@ a:hover{
   .links-mob{
     display: block;
     width: 100% !important;
-    /* padding-right: 1rem !important;
-    margin-bottom: -1rem !important; */
+    
   }
   .find-us-1-mob{
     font-family: 'Montserrat', sans-serif;
     font-size: 3.8vw !important;
-    /* margin-left: 18rem !important; */
+  
   }
   .find-us-btn-mob{
     font-family: 'Montserrat', sans-serif;
@@ -1340,30 +1181,5 @@ a:hover{
     padding-left: 12rem !important;
   }
   
-  .wrapper-sm{
-    background-color: #a5acb9 !important;
-    position: relative;
-    width: 100px !important;
-    border: none;
-    border: 50px;
-    border-radius: 50px;
-  }
-  .email-space-sm{
-    border-style: none;
-    background-color: #a5acb9 !important;
-    width: 100px;
-  }
-  .email-btn-sm{
-    background-color: #3BAD0A !important;
-    font-family: Roboto;
-    width: 100px;
-    position: absolute;
-    display: inline;
-    border: none;
-    top: 0;
-    right: 0;
-    letter-spacing: 0.05rem;
-  
-  }
-
+ 
 }

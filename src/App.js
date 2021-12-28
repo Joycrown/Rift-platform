@@ -4,7 +4,7 @@ import One from './components/Parts/part1';
 import Two from './components/Parts/part2';
 import Three from './components/Parts/part3';
 import Footer from './components/Parts/footer';
-// import Basic from './components/Parts/EmailForm/form';
+
 function App() {
   return (
      

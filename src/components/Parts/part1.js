@@ -4,11 +4,9 @@ import React, {useState,} from 'react';
 function One(){
     const initialValues = {EMAIL: "", };
     const [formValues, setFormValues] = useState(initialValues);
-    // const [formErrors, setFormErrors] = useState({});
-    // const [isSubmit, setIsSubmit] = useState(false);
+   
 
     const handleChange = (e) =>{
-        // console.log(e.target);
         const {name, value} = e.target;
         setFormValues({...formValues,[name]: value});
         console.log(formValues);
@@ -110,22 +108,6 @@ function One(){
                 </div>
             </form>
             </div>
-            {/* <div className = 'we we-tab'>
-                <form class="row g-0 pt-4 ">
-                    <div class="wrapper-2 wrapper-tab">
-                        <input type="email" class="form-control email-spac email-space-tab rounded-pill" placeholder= "Your email" id="inputEmail4 inputEmail4-tab1"/>
-                        <button type="submit" class="btn email-bt email-btn-tab rounded-pill " id = 'join join-tab1'>Join waitlist now</button>
-                    </div>
-                </form>
-            </div> */}
-            {/* <div className = 'we we-1-md-2'>
-                <form class="row g-0 ">
-                    <div class="wrapper wrapper-medium-1">
-                        <input type="email" class="form-control email-spac email-space-medium-1 rounded-pill text-white" placeholder= "Your email" id="inputEmail4"/>
-                        <button type="submit" class="btn email-bt email-btn-medium-2 rounded-pill " id = 'join'>Join waitlist now</button>
-                    </div>
-                </form>
-            </div> */}
         </section>
     );
 }

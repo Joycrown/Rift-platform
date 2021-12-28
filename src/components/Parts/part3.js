@@ -8,12 +8,8 @@ import vec6 from '../images/ion_gift-sharp.png';
 function Three(){
     const initialValues = {EMAIL: "", };
     const [formValues, setFormValues] = useState(initialValues);
-    // const [formErrors, setFormErrors] = useState({});
-    // const [isSubmit, setIsSubmit] = useState(false);
-
     
     const handleChange = (e) =>{
-        // console.log(e.target);
         const {name, value} = e.target;
         setFormValues({...formValues,[name]: value});
         console.log(formValues);
@@ -115,14 +111,6 @@ function Three(){
                         </div>
                     </form>
                 </div>
-                    {/* <div className = ' we-1 we-1-md'>
-                        <form class="row g-0 py-3 pb-5">
-                            <div class="wrapper wrapper-medium ">
-                                <input type="email" class="form-control email-space email-space-medium rounded-pill text-white" placeholder= "Your email" id="inputEmail4"/>
-                                <button type="submit" class="btn email-btn-1 email-btn-1-medium rounded-pill" id = 'join'>Sign Me Up Now</button>
-                            </div>
-                        </form>
-                    </div> */}
                     <div className = 'too-text pt-5'>
                         <p className = 'too-text text-white'>
                         Too many people are struggling with insufficient income and are mostly<br/>
@@ -134,7 +122,6 @@ function Three(){
                         <h2 className = 'fw-bold you-text text-white pt-2 pb-5'>
                             You can be one of them too️!
                         </h2>
-                        {/* <button type="submit" value="Subscribe" name="subscribe" class="btn email-btn-ft pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button> */}
                     </div>
                     {/* tablet */}
                     <div className = 'too-text-tab'>
@@ -148,7 +135,6 @@ function Three(){
                         <h2 className = 'fw-bold you-text-tab text-white pt-3 pb-5'>
                             You can be one of them too️!
                         </h2>
-                        {/* <button class="btn rounded-pill field-btn" type="submit" value="Subscribe" name="subscribe" id="join-tab">Join waitlist now</button> */}
                     </div>
                 </div>
             </div>
@@ -164,13 +150,7 @@ function Three(){
                 <h2 className = 'fw-bolder you-text you-text-mob pt-3'>
                     You can be one of them too️!
                 </h2>
-                {/* <div className = 'elipse py-5 '>
-                   <button type="submit" class="btn email-btn-2 pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button>
-                </div> */}
             </div>
-            {/* <div className = 'elipse py-5'>
-                   <button type="submit" class="btn email-btn-2 pb-0 rounded-pill" id = 'join'>Join the Waitlist now!</button>
-                </div> */}
         </section>
         
     )
