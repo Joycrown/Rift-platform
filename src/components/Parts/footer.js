@@ -43,7 +43,7 @@ function Footer(){
                                         <a href = 'https://instagram.com/rift.link'>Instagram</a>
                                     </div>
                                     <div className = 'text-white find-us-btn find-us-btn-tab find-us-btn-mob'>
-                                        <a href = 'https://facebook.com/riftlink.ng'>Facebook</a>
+                                        <a href = 'https://facebook.com/riftlink.ng/'>Facebook</a>
                                     </div>
                                 </div>
                             </div>
