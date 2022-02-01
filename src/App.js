@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './components/pages/home';
+// import Home from './components/pages/home';
 import One from './components/Parts/part1';
 import Two from './components/Parts/part2';
 import Three from './components/Parts/part3';
@@ -9,7 +9,6 @@ function App() {
   return (
      
       <div className="App">
-        <Home />
         <One />
         <Two />
         <Three />

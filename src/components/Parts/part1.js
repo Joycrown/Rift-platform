@@ -1,114 +1,52 @@
-import React, {useState,} from 'react';
-
+import React from 'react'
+// import image1 from '../../';
 
 function One(){
-    const initialValues = {EMAIL: "", };
-    const [formValues, setFormValues] = useState(initialValues);
    
-
-    const handleChange = (e) =>{
-        const {name, value} = e.target;
-        setFormValues({...formValues,[name]: value});
-        console.log(formValues);
-    };
     return(
         <section className = 'part-1' id = 'blog'>
-            <div className = 'text-center does-nm pt-5'>
-                <h1 className = 'does fw-bold pb-5'>Does this sound <br/>like you?</h1>
-            </div>
-            <div className = 'text-center does-mob'>
-                <h1 className = 'does-mobi pb-5'>Does this sound <br/>like you?</h1>
-            </div>
-            <div className = 'container'>
-                <div className = ' layout-1-tab'>
-                    <div className = 'row'>
-                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-2'>
-                            <div className = 'card'>
-                                <div className = 'cb rounded-3 text-center'>
-                                    <p className = 'card-text card-text-tab-1 card-text-mob'>Are you working class /student/ entrepreneur looking to 
-                                    increase your sources of income?</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-2'>
-                            <div className ='card'>
-                                <div className ='cb rounded-3 text-center'>
-                                    <p className ='card-text-tab card-text-mob'>Are you interested in earning from the forex market but you do not have the time or 
-                                        skills required to be consistently profitable?</p>
-                                </div>
-                            </div>
-                        </div>
-                        <br/>
-                        <br/>
-                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-2'>
-                            <div className = 'card'>
-                                <div className = 'cb rounded-3 text-center'>
-                                    <p className = 'card-text card-text-tab-1 card-text-mob'>Are you tired of trading personally and
-                                        blowing your account over and over?</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className = 'col-lg-3 col-md-6 col-sm-6 pb-2'>
-                            <div className = 'card'>
-                                <div className = 'cb rounded-3 text-center'>
-                                    <p className = 'card-text-4 card-text-tab card-text-mob'>Are you scared of giving your capital to investment firms or 
-                                        traders out of fear of losing your capital? </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div className="container">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="" alt="LOGO" width="30" height="24"/>
+                    </a>
+                 </div>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav nav-links">
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Packages</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link disabled">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link disabled">Contactus</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link disabled">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link disabled">SignIn</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div className = 'py-5 if text-center'>
-                <p className = 'h5 fw-bold if'>
-                If your answer to any of the above is  yes,<br/>
-                worry no more, we have built  the one solution to all your problems. 
-                </p>
+        </nav>
+        <div className= 'background-head vh-100' id = ' '>
+            <div className = 'heading' >
+                <h1 className = 'text-heading text-white'> Automate Your<br/> Income </h1>
+                <h3 className = 'sub-text text-white pt-3'>Earn daily consistent profits with our<br/> powerful copytrading software</h3>
             </div>
-            <div className = 'we'>
-                <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0">
-                    <div id="mc_embed_signup_scroll">
-                        <div class="input-group mb-2">
-                            <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} className="form-control field rounded-start" name="EMAIL" placeholder="Your email" aria-label="Recipient's username" aria-describedby="button-addon2" id="inputEmail4" required/>
-                            <button class="btn rounded-end field-btn" type="submit" value="Subscribe" name="subscribe" id="join">Join waitlist now</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            {/* tablet */}
-            <div className = 'py-5 if-tab text-center'>
-                <p className = 'if-text-tab'>
-                If your answer to any of the above is  yes,<br/>
-                worry no more, we have built  the one solution<br/> to all your problems. 
-                </p>
-            </div>
-            <div className = ' we-tab'>
-            <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0">
-                    <div id="mc_embed_signup_scroll">
-                        <div class="input-group mb-2">
-                            <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} className="form-control field rounded-start" name="EMAIL" placeholder="Your email" aria-label="Recipient's username" aria-describedby="button-addon2" id="inputEmail4-tab" required/>
-                            <button class="btn rounded-end field-btn" type="submit" value="Subscribe" name="subscribe" id="join-tab">Join waitlist now</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            {/* mobile */}
-            
-            <div className = 'py-5 if-mob text-center'>
-                <p className = 'if-text-mob fw-bolder'>
-                If your answer to any of the above is  yes,<br/>
-                worry no more, we have built  the one <br/>solution to all your problems. 
-                </p>
-            </div>
-            <div className = ' we-mob'>
-            <form action="https://link.us17.list-manage.com/subscribe/post?u=3d0c961e139280b56dff09d86&amp;id=ddbe36e928" method="post" class="row g-0">
-                <div class="d-grid wrapper-mob-1">
-                    <input type="email"  value = {formValues.EMAIL} onChange ={handleChange} className="form-control field-mob rounded-start" name="EMAIL" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2" id="inputEmail4-mob" required/>
-                    <button class="btn rounded-end field-btn-mob" type="submit" value="Subscribe" name="subscribe" id="join-mob">Join the wait-list now</button>
-                </div>
-            </form>
-            </div>
-        </section>
+            {/* <div className = 'sub-heading'>
+                <h3 className = 'sub-text text-white'>Earn daily consistent profits with our<br/> powerful copytrading software</h3>
+            </div> */}
+
+        </div>
+    </section>
     );
 }
 
