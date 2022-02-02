@@ -44,10 +44,34 @@
   width: 28% !important;
   height: 8vh !important;
 }
-.btn-1{
-  background-color: #009CDE;
+.background-head-mob{
+  display: none;
 }
-
+/* part 2 */
+.section-2H{
+  padding-top: 5rem;
+}
+.text-heading2{
+  font-family: 'Roboto' ;
+  font-weight: 700;
+  font-size: 2.5vw;
+  font-style: normal;
+}
+.sub-text2{
+  font-family: 'Roboto' ;
+  font-weight: 400;
+  font-size: 1.4vw;
+  font-style: normal;
+}
+.card{
+  background: url(./components/images/unsplash_GzumspFznSE.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: 50% 0  !important;
+}
+.card{
+  height: 4vw !important;
+}
 @media (max-width: 768px){
   .nav-links-tab{
     font-family: 'Roboto';
@@ -84,6 +108,16 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .background-head{
+    display: none;
+  }
+  .background-head-mob{
+    display: block;
+    background-image: url(./components/images/shutterstock_1728111412\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0 ;
+  }
   .nav-link-mob{
     font-family: 'Roboto';
     font-weight: 500;
@@ -97,7 +131,7 @@
   .text-heading-mob{
     font-family: 'Roboto' ;
     font-weight: 600;
-    font-size: 11vw;
+    font-size: 13vw;
   }
   .sub-text-mob{
     font-family: 'Roboto' ;
