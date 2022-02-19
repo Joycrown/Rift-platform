@@ -1,23 +1,24 @@
-import React from 'react';
-// import logo from '../images/Rift link logo.png';
-// import savings from '../images/Savings 1.png';
-// import savings2 from '../images/Savings 2.png';
+import '../Parts/homepage/Home.css';
+
+// import Home from './components/pages/home';
+import One from '../Parts/homepage/part1';
+import Two from '../Parts/homepage/part2';
+import Three from '../Parts/homepage/part3';
+import Footer from '../Parts/homepage/footer';
 
 
 
+function Home() {
+  return (
+     
+      <div className="App">
+        <One />
+        <Two />
+        <Three />
+        <Footer />
 
-
-
-function Home(){
-
-    return(
-        <section className = 'body' id= 'home'>
-            <h1>This is the Beginning!</h1>
-        </section>
-      
-    )
+      </div>
+  );
 }
-
-
 
 export default Home;

@@ -1,20 +1,26 @@
-import './App.css';
-// import Home from './components/pages/home';
-import One from './components/Parts/part1';
-import Two from './components/Parts/part2';
-import Three from './components/Parts/part3';
-import Footer from './components/Parts/footer';
+// import './App.css';
+import Home from './components/pages/home';
+import Signin from './components/pages/signin';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Signuppage1 from './components/pages/signup';
+import Signuppage2 from './components/pages/signup2';
+import userform from './components/pages/userform';
+import Multistep from './components/Parts/testing/multistep'
+
+
+
+
 
 function App() {
   return (
-     
-      <div className="App">
-        <One />
-        <Two />
-        <Three />
-        <Footer />
-
-      </div>
+        <Router>
+          <div className ='App'>
+            <Route path = '/' exact component={Home}/>
+            <Route path = '/signin' component={Signin}/>
+            {/* <Route path = '/signup1' component={userform}/> */}
+            <Route path = '/signup2' component={Multistep}/>
+          </div>
+        </Router>
   );
 }
 
